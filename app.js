@@ -68,4 +68,5 @@ console.log("Hello, my name is " + myName)
   //Items in an array are called elements
   //Arrays do not guarantee order
   //Anything that can be put in a list can be inserted into an array, students in a school, email addresses in a database, phone numbers in a form
-  
+
+  let quotes = ["Hello", "These Are", "Quotes"]
