@@ -31,4 +31,10 @@ console.log("Hello, my name is " + myName)
   console.log(a * a === d);
   console.log(48 == '48');
 
+  let animal = "chicken"
+  if(animal === "cow")
+  	console.log("Mooooooo")
+  else
+  	console.log("Hey, your not a cow.")
+
   
