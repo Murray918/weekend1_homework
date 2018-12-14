@@ -125,13 +125,18 @@ console.log(bank_account)
 //What real-life thing could you model with an array?  Grocery list
 
 let quotes = ["Hello", "Goodbye", "Wow"]
-*/
+
 const randomThings = [1, 10, "Hello", true]
 //console.log(randomThings[0])
 randomThings.splice(2, 1, "World")
-console.log(randomThings)
-
-
+//console.log(randomThings)
+*/
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//console.log(ourClass[2])
+ourClass.splice(4, 1, 'Octocat')
+//console.log(ourClass)
+ourClass.push('Cloud City')
+console.log(ourClass)
 
 
 
