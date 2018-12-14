@@ -89,3 +89,8 @@ console.log("Hello, my name is " + myName)
   myArray.pop()
   myArray.reverse()
   //myArray will be reversed and returns the reversed array. This function mutates the original array (changes it)
+
+  let number = 120
+  number<100 ? console.log("little number") : console.log("big number")
+
+  
