@@ -114,9 +114,19 @@ for(let i = 0; i<=100; i++){
 console.log(bank_account)
 
 
-// Multiples of 3 and 5        I did this one!!!
+ Multiples of 3 and 5        I did this one!!!
+
 */
 
+//What are the things in an array called?   An element.
+
+//Do Arrays guarantee those things will be in order?  No.
+
+//What real-life thing could you model with an array?  Grocery list
+
+let quotes = ["Hello", "Goodbye", "Wow"]
+
+console.log(quotes)
 
 
 
