@@ -29,7 +29,7 @@ secondVariable = "Hello"
 
 let myName = "Johnathan"
 console.log("Hello, my name is " + myName)
-*/
+
 
   const a = 4;
   const b = 53;
@@ -47,7 +47,14 @@ console.log("Hello, my name is " + myName)
   console.log(a < b < c);
   console.log(a === a != d);
   console.log(48 == '48');
+*/
 
-
+let animal = 'cow'
+animal = 'Chicken'
+if(animal === 'cow'){
+	console.log('Mooooooooo')
+}else{
+	console.log("Hey! You're not a cow.")
+}
 
 
