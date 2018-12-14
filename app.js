@@ -90,7 +90,9 @@ console.log("Hello, my name is " + myName)
   myArray.reverse()
   //myArray will be reversed and returns the reversed array. This function mutates the original array (changes it)
 
-  let number = 120
+  let number = 8
   number<100 ? console.log("little number") : console.log("big number")
+
+  number<5 ? console.log("little number") : number>10 ? console.log("big number") : console.log("monkey")
 
   
