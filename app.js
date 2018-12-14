@@ -47,14 +47,25 @@ console.log("Hello, my name is " + myName)
   console.log(a < b < c);
   console.log(a === a != d);
   console.log(48 == '48');
-*/
+
 
 let animal = 'cow'
-animal = 'Chicken'
+//animal = 'chicken'
 if(animal === 'cow'){
 	console.log('Mooooooooo')
 }else{
 	console.log("Hey! You're not a cow.")
 }
+*/
+
+let age = 17
+//age = 15
+if(age >= 16){
+	console.log('Here are the keys!')
+}else{
+	console.log('Sorry, you are to young!')
+}
+
+
 
 
