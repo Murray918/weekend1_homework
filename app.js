@@ -76,4 +76,8 @@ console.log("Hello, my name is " + myName)
   randomThings[2] = "World"
   console.log(randomThings.toString())
 
-  
+  const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+  console.log(ourClass[3])
+  ourClass[4] = "Octocat"
+  ourClass.push("Cloud City")
+  console.log(ourClass.toString())
