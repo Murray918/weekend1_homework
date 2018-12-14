@@ -37,4 +37,10 @@ console.log("Hello, my name is " + myName)
   else
   	console.log("Hey, your not a cow.")
 
+  let age = 42
+  if(age>=16)
+  	console.log("Here are your keys!")
+  else
+  	console.log("Sorry, you are too young.")
+
   
