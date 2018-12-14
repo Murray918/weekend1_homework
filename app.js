@@ -56,7 +56,7 @@ if(animal === 'cow'){
 }else{
 	console.log("Hey! You're not a cow.")
 }
-*/
+
 
 let age = 17
 //age = 15
@@ -65,6 +65,29 @@ if(age >= 16){
 }else{
 	console.log('Sorry, you are to young!')
 }
+*/
+
+//for(let i = 0; i <= 10; i++){
+   //console.log(i)
+//}
+//for(let i = 10; i <= 400; i++){
+	//console.log(i)
+//}
+for(let i = 12; i <= 4000; i=i+3)
+console.log(i) 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
