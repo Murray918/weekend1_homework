@@ -43,4 +43,5 @@ console.log("Hello, my name is " + myName)
   else
   	console.log("Sorry, you are too young.")
 
-  
+  for(let i=0;i<=10;i++)
+  	console.log(i)
