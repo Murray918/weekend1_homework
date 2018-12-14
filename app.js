@@ -16,3 +16,14 @@
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 // 	How ever long it takes to understand the problem.
 
+let firstVariable = "Hello World"
+firstVariable = 0
+let secondVariable = firstVariable
+secondVariable = "Yollo World"
+// The value of firstVariable = 0
+
+let yourName = "AJ"
+let myName = function(){
+	return console.log("Hello, my name is " + yourName)
+}
+myName()
