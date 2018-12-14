@@ -25,6 +25,24 @@ A.5 It gives high level flow of the program and is human readable vs writing act
 Q.6 What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 A.6  Thinking about how to solve the problem should take ~80% of the time and coding should take ~20%.
      Another average is a programmer can program 10 lines of tested code per day!
-
-
 */
+
+//2)  
+
+let firstVariable;
+firstVariable = "Hello World";
+firstVariable = 0;
+let secondVariable = firstVariable;
+secondVariable = "Dad";
+//What is the value of firstVariable.  It is still 0 from line 34
+yourName = "Christopher Conley"
+
+let func = function(str)
+{
+	return `Hello, my name is ${yourName}`;
+}
+
+console.log(func(yourName));
+
+
+
