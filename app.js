@@ -97,7 +97,7 @@ for(let i = 0; i <= 100; i++){
 		console.log(i)
 	}
 }
-*/
+
 
 //let bank_account = 0
 
@@ -114,6 +114,8 @@ for(let i = 0; i<=100; i++){
 console.log(bank_account)
 
 
+// Multiples of 3 and 5        I did this one!!!
+*/
 
 
 
