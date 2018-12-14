@@ -52,3 +52,11 @@
 // else{
 // 	console.log("Hey! You're not a cow")
 // }
+
+let age = 0
+if(age >= 16){
+	console.log("Here are the keys")
+}
+else{
+	console.log("Sorry, you're too young.")
+}
