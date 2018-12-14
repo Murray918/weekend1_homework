@@ -116,7 +116,7 @@ console.log(bank_account)
 
  Multiples of 3 and 5        I did this one!!!
 
-*/
+
 
 //What are the things in an array called?   An element.
 
@@ -125,9 +125,11 @@ console.log(bank_account)
 //What real-life thing could you model with an array?  Grocery list
 
 let quotes = ["Hello", "Goodbye", "Wow"]
-
-console.log(quotes)
-
+*/
+const randomThings = [1, 10, "Hello", true]
+//console.log(randomThings[0])
+randomThings.splice(2, 1, "World")
+console.log(randomThings)
 
 
 
