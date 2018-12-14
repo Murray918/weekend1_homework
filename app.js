@@ -81,3 +81,11 @@ console.log("Hello, my name is " + myName)
   ourClass[4] = "Octocat"
   ourClass.push("Cloud City")
   console.log(ourClass.toString())
+
+  const myArray = [5, 10, 500, 20]
+  myArray.push("Egon", "Hello")
+  myArray.shift()
+  myArray.unshift("Bob Marley")
+  myArray.pop()
+  myArray.reverse()
+  //myArray will be reversed and returns the reversed array. This function mutates the original array (changes it)
