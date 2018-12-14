@@ -52,6 +52,15 @@ console.log("Hello, my name is " + myName)
   for(let i=0;i<=100;i++)
   	i%5==0 ? console.log("I found a " + i + " High five!") : i%3==0 ? console.log("I found a " + i + " Three is a crowd.") : console.log(i)
 
+  let bankAccount = 0
+  for(let i = 0;i<=10;i++)
+  	bankAccount+=i
+  console.log(bankAccount)
+  bankAccount = 0
+  for(let i = 1;i<=100;i++)
+  {
+  	bankAccount+=(i*2)
+  }
+  console.log(bankAccount)
+
   
-
-
