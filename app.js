@@ -15,7 +15,7 @@ What is pseudocoding and why should you do it?    Writing code out on paper, bef
 What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?   90% thinking about it and 10% actually coding.
 
 
-*/
+
 
 let firstVariable = "Hello World"
 
@@ -29,3 +29,25 @@ secondVariable = "Hello"
 
 let myName = "Johnathan"
 console.log("Hello, my name is " + myName)
+*/
+
+  const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
+
+  console.log(a < b);
+  console.log(c > d);
+  console.log('Name' === 'Name');
+  console.log(true != false);
+  console.log(false || false || false || false || false || false || true);
+  console.log(false === false)
+  console.log(e === 'Kevin');
+  console.log(a < b < c);
+  console.log(a === a != d);
+  console.log(48 == '48');
+
+
+
+
