@@ -70,3 +70,10 @@ console.log("Hello, my name is " + myName)
   //Anything that can be put in a list can be inserted into an array, students in a school, email addresses in a database, phone numbers in a form
 
   let quotes = ["Hello", "These Are", "Quotes"]
+
+  const randomThings = [1, 10, "Hello", true]
+  console.log(randomThings[0])
+  randomThings[2] = "World"
+  console.log(randomThings.toString())
+
+  
