@@ -65,7 +65,7 @@ if(age >= 16){
 }else{
 	console.log('Sorry, you are to young!')
 }
-*/
+
 
 //for(let i = 0; i <= 10; i++){
    //console.log(i)
@@ -75,8 +75,18 @@ if(age >= 16){
 //}
 for(let i = 12; i <= 4000; i=i+3)
 console.log(i) 
+*/
 
-
+//for(let i = 1; i <= 100; i=i+2){
+   //console.log(i+1)
+//}
+for(let i = 0; i <= 100; i++){
+	if(i % 2 === 0){
+		console.log(i + '<-- is an even number')
+	}else{
+		console.log(i)
+	}
+}
 
 
 
