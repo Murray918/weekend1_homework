@@ -28,19 +28,27 @@
 // }
 // myName()
 
-  const a = 4;
-  const b = 53;
-  const c = 57;
-  const d = 16;
-  const e = 'Kevin';
+  // const a = 4;
+  // const b = 53;
+  // const c = 57;
+  // const d = 16;
+  // const e = 'Kevin';
 
-  console.log(a != b);
-  console.log(c != d);
-  console.log('Name' == 'Name');
-  console.log(true != false);
-  /*I don't get it*/console.log(false == false == false == false == false == false == true);
-  console.log(false == false)
-  console.log(e == 'Kevin');
-  console.log(a != b != c);
-  console.log(a == a != d);
-  console.log(48 == '48');
+  // console.log(a != b);
+  // console.log(c != d);
+  // console.log('Name' == 'Name');
+  // console.log(true != false);
+  // console.log(false == false == false == false == false == false == true);
+  // console.log(false == false)
+  // console.log(e == 'Kevin');
+  // console.log(a != b != c);
+  // console.log(a == a != d);
+  // console.log(48 == '48');
+
+// let animal = "cow"
+// if(animal === "cow"){
+// 	return console.log("mooooooo")
+// }
+// else{
+// 	console.log("Hey! You're not a cow")
+// }
