@@ -5,3 +5,12 @@
 //Pseudocoding is creating a code/english hybid algorithm to wrap your head around the problem before you start on it so the code is easier to implement
 //60%
 
+let firstVariable = "Hello World"
+firstVariable = 10
+let secondVariable = firstVariable
+secondVariable = "This is a string"
+//Expected output of firstVariable: 10
+console.log(firstVariable)
+let myName = "Jacob Werbin"
+console.log("Hello, my name is " + myName)
+
