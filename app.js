@@ -130,13 +130,29 @@ const randomThings = [1, 10, "Hello", true]
 //console.log(randomThings[0])
 randomThings.splice(2, 1, "World")
 //console.log(randomThings)
-*/
+
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //console.log(ourClass[2])
 ourClass.splice(4, 1, 'Octocat')
 //console.log(ourClass)
 ourClass.push('Cloud City')
 console.log(ourClass)
+*/
+const myArray = [5, 10, 500, 20]
+myArray.push('Egon', 'fresh')
+myArray.splice(0, 1)
+myArray.unshift('Bob Marley')
+myArray.pop()
+myArray.reverse()
+console.log(myArray)
+
+
+
+
+
+
+
+
 
 
 
