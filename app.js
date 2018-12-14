@@ -75,7 +75,7 @@ if(age >= 16){
 //}
 for(let i = 12; i <= 4000; i=i+3)
 console.log(i) 
-*/
+
 
 //for(let i = 1; i <= 100; i=i+2){
    //console.log(i+1)
@@ -87,8 +87,16 @@ for(let i = 0; i <= 100; i++){
 		console.log(i)
 	}
 }
-
-
+*/
+for(let i = 0; i <= 100; i++){
+	if(i % 5 === 0){
+		console.log('I found a ' + i + ' High five!')
+	}else if(i % 3 === 0){
+		console.log('I found a ' + i + ' Three is a crowd')
+	}else{
+		console.log(i)
+	}
+}
 
 
 
