@@ -69,6 +69,7 @@
 // }
 
 // LOOPS
+// A
 // 1
 // for(let i = 0; i <= 10; i++){
 // 	console.log(i)
@@ -83,5 +84,13 @@
 // for(let i = 12; i <= 4000; i++){
 // 	if(i % 3 === 0){
 // 		console.log(i)
+// 	}
+// }
+
+// B
+// 1
+// for (let i = 0; i <= 100; i++){
+// 	if(i % 2 === 0){
+// 		console.log(i + " is an even number")
 // 	}
 // }
