@@ -141,3 +141,15 @@ function printGreeting(name)
 }
 console.log(printGreeting("Jake"))
 
+function printCool(name)
+{
+	return name+" is cool."
+}
+console.log(printCool("This"))
+
+function calculateCube(num)
+{
+	return num**3
+}
+console.log(calculateCube(5))
+
