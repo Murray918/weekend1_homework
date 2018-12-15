@@ -314,10 +314,19 @@ user.email = 'jimmyonlyonethumbnow@sixsquared.com'
 user.age++
 user.location = 'New York City'
 user.purchased.push('carbohydrates', 'peace of mind', 'Merino jodhpurs')
-console.log(user.purchased[2])
-
-
-
+//console.log(user.purchased[2])
+user.friend = {
+    name: "Sammy",
+    age: 25,
+    location: 'New Orleans',
+    purchased: []
+}
+//console.log(user.friend.name)
+//console.log(user.friend.location)
+user.friend.age = 55
+//console.log(user.friend.age)
+user.friend.purchased.push('The One Ring', 'A latte')
+console.log(user.friend.purchased[1])
 
 
 
