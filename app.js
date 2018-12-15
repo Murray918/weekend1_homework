@@ -284,3 +284,32 @@
 // 	console.log(arrayOfStrings[0].length)
 // }
 // getMultipleLengths(["hello", "what", "is", "up", "dude"])
+
+// G
+// Not sure what is being asked.
+//  let maxOfThree = function(num1, num2, num3){
+// 	for(let i = 0; i >= 3; i++)
+// 	{
+// 		if(i === 9){
+// 			return 
+// 		}
+// 		else{
+
+// 		}
+// 	}
+// }
+// maxOfThree(6, 9, 1)
+
+// H
+// let names = ["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]
+// let printLongestWord = function(longNames){
+// 	let longest = names
+
+// 	for(let i = 0; i < names.length; i++){
+// 		if(names[i].length > longest.length){
+// 			longest = names[i]
+// 		}
+// 	}
+// 	 console.log(longest)
+// }
+// printLongestWord(names)
