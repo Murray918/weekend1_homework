@@ -212,12 +212,21 @@ let printCool = function(name){
 	return `${name} are cool`
 }
 console.log(printCool('You'))
-*/
+
 let calculateCube = function(number){
    return number ** 3
 }
 console.log(calculateCube(5))
+*/
+let isVowel = function(letter){
+   if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+    return true
+   }else {
+    return false
+   }
+}
 
+console.log(isVowel('o'))
 
 
 
