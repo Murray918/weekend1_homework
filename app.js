@@ -278,3 +278,5 @@ let user =
 	age: -24
 }
 
+user.email = "saucyschoolboy@sillynoodle.com"
+user.age++
