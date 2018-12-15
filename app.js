@@ -256,3 +256,10 @@
 
 // }
 // calculateCube(5)
+
+// D
+// Not sure how this would work.
+// let isVowel = function(string){
+// 	console.log(string)
+// }
+// isVowel("ab")
