@@ -299,3 +299,8 @@ console.log(user.friend.location)
 user.friend.age = 55
 user.friend.purchased.push("The One Ring", "A Latte")
 console.log(user.friend.purchased[1])
+
+for(let item of user.purchased)
+	console.log(item)
+for(let item of user.friend.purchased)
+	console.log(item)
