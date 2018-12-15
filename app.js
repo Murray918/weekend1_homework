@@ -263,3 +263,14 @@
 // 	console.log(string)
 // }
 // isVowel("ab")
+
+// E
+// let getTwoLengths = function (name1, name2){
+// 	let myArray = []
+// 	myArray.push(name1.length)
+// 	myArray.push(name2.length)
+// 	console.log(myArray)
+// 	return name1 + name2
+
+// }
+// getTwoLengths("hank", "Hippopopalous")
