@@ -312,6 +312,17 @@ user = {
 
 user.email = 'jimmyonlyonethumbnow@sixsquared.com'
 user.age++
+
+user.location = 'New York City'
 console.log(user)
+
+
+
+
+
+
+
+
+
 
 
