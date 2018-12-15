@@ -157,7 +157,7 @@
 
 // D
 // 1
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //ourClass[2]
 
 // 2
