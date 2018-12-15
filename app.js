@@ -286,3 +286,16 @@ user.location = "Mercury"
 user.purchased.push("carbohydrates","peace of mind","Merino jodhpurs")
 console.log(user.purchased[2])
 
+user.friend = 
+{
+	name: "7Grapez",
+	age: Infinity,
+	purchased: [],
+	location: "The Universe"
+}
+
+console.log(user.friend.name)
+console.log(user.friend.location)
+user.friend.age = 55
+user.friend.purchased.push("The One Ring", "A Latte")
+console.log(user.friend.purchased[1])
