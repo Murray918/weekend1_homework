@@ -140,3 +140,17 @@
 // Array is like an organizer, so you could model a chess board after it.
 // Your old christamas decorations or your shoe collection.
 
+// B
+// let quotes = ["","",""]
+
+// C
+// 1
+// const randomThings = [1, 0, "Hello", true]
+// you call the array, randdomThings and access which element you'd like by 
+// placing [] at the end of the variable, randomThings[]. To choose which 
+// element you'd like to access you place a value within 
+// the brackets, randomThings[0] would return the first element of the array.
+
+// 2
+// randomThings[2] = "World"
+// console.log(randomThings[2])
