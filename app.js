@@ -145,13 +145,35 @@ myArray.unshift('Bob Marley')
 myArray.pop()
 myArray.reverse()
 console.log(myArray)
-*/
-let rapper = 789
+
+let rapper = 7
 if(rapper < 100){
 	console.log('little number')
 }else{
 	console.log('big number')
 }
+*/
+let number = 7
+ if(number < 5){
+ 	console.log('little number')
+ }else if(number > 10){
+ 	console.log('big number')
+ }else {
+ 	console.log('monkey')
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
