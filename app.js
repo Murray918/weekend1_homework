@@ -326,10 +326,14 @@ user.friend = {
 user.friend.age = 55
 //console.log(user.friend.age)
 user.friend.purchased.push('The One Ring', 'A latte')
-console.log(user.friend.purchased[1])
+//console.log(user.friend.purchased[1])
 
-
-
+for(let i of user.purchased){
+	//console.log(i)
+}
+for(let i of user.friend.purchased){
+	console.log(i)
+}
 
 
 
