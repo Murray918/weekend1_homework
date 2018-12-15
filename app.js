@@ -312,9 +312,9 @@ user = {
 
 user.email = 'jimmyonlyonethumbnow@sixsquared.com'
 user.age++
-
 user.location = 'New York City'
-console.log(user)
+user.purchased.push('carbohydrates', 'peace of mind', 'Merino jodhpurs')
+console.log(user.purchased[2])
 
 
 
