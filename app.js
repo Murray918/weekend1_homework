@@ -178,10 +178,21 @@
 // I believe this will permanently reverse the array so if ever called again it will be reversed.
 
 // F
-// let myNumber = 0
-// if(myNumber < 100){
+// let myNumber = 20
+// // if(myNumber < 100){
+// // 	console.log("little number")
+// // }
+// // else{
+// // 	console.log("big number")
+// // }
+
+// // G
+// if(myNumber < 5){
 // 	console.log("little number")
 // }
-// else{
+// else if(myNumber > 10){
 // 	console.log("big number")
+// }
+// else{
+// 	console.log("monkey")
 // }
