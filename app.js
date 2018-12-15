@@ -280,3 +280,5 @@ let user =
 
 user.email = "saucyschoolboy@sillynoodle.com"
 user.age++
+
+user.location = "Mercury"
