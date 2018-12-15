@@ -238,3 +238,13 @@
 // console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsCloset[1][1] + " and a " + thomsCloset [2][1])
 // thomsCloset[1][2] = "Footie Pajamas"
 // console.log(thomsCloset[1][2])
+
+// Section IV
+// A
+// yes
+
+// B
+// let printCool = function(name){
+// 	console.log(name + " is cool")
+// }
+// printCool("Captain Reynolds")
