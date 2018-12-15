@@ -113,9 +113,17 @@
 // 	console.log(bank_account)
 // }
 // 2
-let bank_account = 0
-for (let i = 0; i <= 100; i++){
-	bank_account += i * 2
-	console.log(bank_account)
+// let bank_account = 0
+// for (let i = 0; i <= 100; i++){
+// 	bank_account += i * 2
+// 	console.log(bank_account)
+// }
 
+// E
+let sum = 0
+for (let i = 0; i < 1000; i++){
+	if(i % 3 === 0 || i % 5 === 0){
+		sum += i
+		console.log(sum)
+	}
 }
