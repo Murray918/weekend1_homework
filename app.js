@@ -94,3 +94,10 @@
 // 		console.log(i + " is an even number")
 // 	}
 // }
+
+// 2
+// for (let i = 0; i <= 100; i++){
+// 	if(i % 5 === 0){
+// 		console.log("I found a " + i + ". High five!")
+// 	}
+// }
