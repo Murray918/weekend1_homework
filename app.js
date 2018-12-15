@@ -270,3 +270,11 @@ function getRandomElement(array)
 }
 console.log(getRandomElement(quotes))
 
+let user = 
+{
+	name: "John",
+	email: "appleseed@swag.com",
+	purchased: [],
+	age: -24
+}
+
