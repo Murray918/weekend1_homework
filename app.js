@@ -163,3 +163,20 @@ function isVowel(char)
 		return false
 }
 console.log(isVowel("e"))
+
+function getTwoLengths(str1, str2)
+{
+	return [str1.length, str2.length]
+}
+console.log(getTwoLengths("Hello", "Text"))
+
+function getMultipleLengths(strings)
+{
+	let lengthsArray = []
+	for(let lengths of strings)
+	{
+		lengthsArray.push(lengths.length)
+	}
+	return lengthsArray
+}
+console.log(getMultipleLengths(["dafasddf","sdafasdf","asdfasdf","dfhgd","s","dfgsdfh"]))
