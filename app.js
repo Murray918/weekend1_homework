@@ -153,3 +153,13 @@ function calculateCube(num)
 }
 console.log(calculateCube(5))
 
+function isVowel(char)
+{
+	if(char.length>1 || char.length<1)
+		return false
+	else if(char==='a'||char==='e'||char==='i'||char==='o'||char==='u')
+		return true
+	else
+		return false
+}
+console.log(isVowel("e"))
