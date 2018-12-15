@@ -88,19 +88,34 @@
 // }
 
 // B
-// 1
 // for (let i = 0; i <= 100; i++){
 // 	if(i % 2 === 0){
 // 		console.log(i + " is an even number")
 // 	}
 // }
 
+// C
+// 1 and 2
+// for (let i = 3; i <= 100; i++){
+// 	if(i % 3 === 0){
+// 		console.log("I found a " + i + ". Three is a crowd")
+// 	}
+// 	else if(i % 5 == 0){
+// 		console.log("I found a " + i + ". High five!")
+// 	}
+// }
+
+// D
+// 1
+// let bank_account = 0
+// for (let i = 0; i <= 10; i++){
+// 	bank_account += i
+// 	console.log(bank_account)
+// }
 // 2
-for (let i = 3; i <= 100; i++){
-	if(i % 3 === 0){
-		console.log("I found a " + i + ". Three is a crowd")
-	}
-	else if(i % 5 == 0){
-		console.log("I found a " + i + ". High five!")
-	}
+let bank_account = 0
+for (let i = 0; i <= 100; i++){
+	bank_account += i * 2
+	console.log(bank_account)
+
 }
