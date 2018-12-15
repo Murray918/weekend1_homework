@@ -180,3 +180,22 @@ function getMultipleLengths(strings)
 	return lengthsArray
 }
 console.log(getMultipleLengths(["dafasddf","sdafasdf","asdfasdf","dfhgd","s","dfgsdfh"]))
+
+function maxOfThree(num1, num2, num3)
+{
+	return Math.max(num1, num2, num3)
+}
+console.log(maxOfThree(3,3,3))
+
+function printLongestWord(strings)
+{
+	currerntLargestWord = ""
+	for(let string of strings)
+	{
+		if(currerntLargestWord.length<string.length)
+			currerntLargestWord = string
+	}
+	return currerntLargestWord
+}
+console.log(printLongestWord(["sklajhfkjlas", "grdsgth", "gdhs", "fsdaf", "asdsdf"]))
+
