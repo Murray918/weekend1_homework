@@ -1,3 +1,6 @@
+// Variables and Datatypes
+
+//A
 // How do we assign a value to a variable?
 // 	let x = 0 
 
@@ -16,6 +19,7 @@
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 // 	How ever long it takes to understand the problem.
 
+// B
 // let firstVariable = "Hello World"
 // firstVariable = 0
 // let secondVariable = firstVariable
@@ -28,6 +32,7 @@
 // }
 // myName()
 
+// C
   // const a = 4;
   // const b = 53;
   // const c = 57;
@@ -45,6 +50,7 @@
   // console.log(a == a != d);
   // console.log(48 == '48');
 
+// D
 // let animal = "cow"
 // if(animal === "cow"){
 // 	return console.log("mooooooo")
@@ -53,6 +59,7 @@
 // 	console.log("Hey! You're not a cow")
 // }
 
+// E
 // let age = 0
 // if(age >= 16){
 // 	console.log("Here are the keys")
@@ -61,16 +68,20 @@
 // 	console.log("Sorry, you're too young.")
 // }
 
+// LOOPS
+// 1
 // for(let i = 0; i <= 10; i++){
 // 	console.log(i)
 // }
 
+// 2
 // for(let i = 10; i <= 400; i++){
 // 	console.log(i)
 // }
 
-for(let i = 12; i <= 4000; i++){
-	if(i % 3 === 0){
-		console.log(i)
-	}
-}
+// 3
+// for(let i = 12; i <= 4000; i++){
+// 	if(i % 3 === 0){
+// 		console.log(i)
+// 	}
+// }
