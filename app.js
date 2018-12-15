@@ -120,10 +120,23 @@
 // }
 
 // E
-let sum = 0
-for (let i = 0; i < 1000; i++){
-	if(i % 3 === 0 || i % 5 === 0){
-		sum += i
-		console.log(sum)
-	}
-}
+// let sum = 0
+// for (let i = 0; i < 1000; i++){
+// 	if(i % 3 === 0 || i % 5 === 0){
+// 		sum += i
+// 		console.log(sum)
+// 	}
+// }
+
+// Section III
+// A
+// 1 What are the things in an array called?
+// Arrays can store values and objects (objects can store methods).
+
+// 2 Do Arrays guarantee those things will be in order?
+// Yes unless specified
+
+// 3 What real-life thing could you model with an array?
+// Array is like an organizer, so you could model a chess board after it.
+// Your old christamas decorations or your shoe collection.
+
