@@ -270,7 +270,17 @@
 // 	myArray.push(name1.length)
 // 	myArray.push(name2.length)
 // 	console.log(myArray)
-// 	return name1 + name2
 
 // }
 // getTwoLengths("hank", "Hippopopalous")
+
+// F
+// Need help
+// let getMultipleLengths = function(arrayOfStrings){
+// 	let b = 0
+// 	for(let i = 0; i < arrayOfStrings.length; i++){
+// 		arrayOfStrings.push()
+// 	}
+// 	console.log(arrayOfStrings[0].length)
+// }
+// getMultipleLengths(["hello", "what", "is", "up", "dude"])
