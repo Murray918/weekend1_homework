@@ -248,3 +248,11 @@
 // 	console.log(name + " is cool")
 // }
 // printCool("Captain Reynolds")
+
+// C
+// let calculateCube = function(num){
+// 	console.log(num * 25)
+// 	return num
+
+// }
+// calculateCube(5)
