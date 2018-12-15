@@ -332,8 +332,24 @@ for(let i of user.purchased){
 	//console.log(i)
 }
 for(let i of user.friend.purchased){
-	console.log(i)
+	//console.log(i)
 }
+
+let updateUser = function(){
+	user.age ++
+	user.name = user.name.toUpperCase()
+}
+//updateUser()
+//console.log(user.age)
+//console.log(user.name)
+let oldAndLoud = function(anything){
+	anything.age ++
+	user.name = user.name.toUpperCase()
+}
+oldAndLoud(user)
+console.log(user)
+
+
 
 
 
