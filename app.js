@@ -154,3 +154,13 @@
 // 2
 // randomThings[2] = "World"
 // console.log(randomThings[2])
+
+// D
+// 1
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//ourClass[2]
+
+// 2
+// ourClass[4] = "Octocat"
+// ourClass.push("Cloud City")
+// console.log(ourClass)
