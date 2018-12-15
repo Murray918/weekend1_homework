@@ -264,7 +264,7 @@ let printLongestWord = function(word){
 }
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "butter", "big", "Todd"]))
-*/
+
 let transmogrify = function(num1, num2, num3){
    return (num1*num2)**num3
 }
@@ -272,6 +272,34 @@ let transmogrify = function(num1, num2, num3){
 console.log(transmogrify(5, 3, 2))
 
 
+//reverseWordOrder no idea what i am doing here
+
+
+let randomNumer = function(){
+	return Math.floor(Math.random()* 10 + 1)
+}
+console.log(randomNumer())
+let randomNumer = function(){
+	return Math.floor(Math.random()* 91 + 10)
+}
+console.log(randomNumer())
+
+let randomNumer = function(){
+	return (Math.random()* 12735 + 532)
+}
+console.log(randomNumer())
+
+let randomNumer = function(){
+	return (Math.random()* 10 + 1)
+}
+console.log(randomNumer())
+*/
+quotes = ["Hello", "Goodbye", "Wow", "Easy", "Hard", "Never"]
+
+let getRandomElement = function(random){
+   return random[Math.floor(Math.random()*random.length)]
+}
+console.log(getRandomElement(quotes))
 
 
 
