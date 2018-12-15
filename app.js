@@ -250,7 +250,7 @@ let maxOfThree = function(number1, number2, number3){
 }
 
 console.log(maxOfThree(567, 789,56))
-*/
+
 
 let printLongestWord = function(word){
 	let x = ""
@@ -264,9 +264,12 @@ let printLongestWord = function(word){
 }
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "butter", "big", "Todd"]))
+*/
+let transmogrify = function(num1, num2, num3){
+   return (num1*num2)**num3
+}
 
-
-
+console.log(transmogrify(5, 3, 2))
 
 
 
