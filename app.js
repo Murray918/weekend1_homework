@@ -243,14 +243,27 @@ let getMultipleLengths = function(stuff){
   return i
 }
 console.log(getMultipleLengths(["goodbye", "yes", "hello", "up", "dude"]))
-*/
+
 
 let maxOfThree = function(number1, number2, number3){
   return Math.max(number1, number2, number3)
 }
 
-console.log(maxOfThree(567, 789,56));
+console.log(maxOfThree(567, 789,56))
+*/
 
+let printLongestWord = function(word){
+	let x = ""
+	for(let i = 0; i < word.length; i++){
+     if(x.length < word[i].length){
+     	x = word[i]
+     }
+     
+	}
+	return x
+}
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "butter", "big", "Todd"]))
 
 
 
