@@ -199,14 +199,19 @@ kristynsCloset[5] = 'stained knit hat'
 //console.log('Thom is looking fierce in a ' + thomsCloset[0][0] + " , " + thomsCloset[1][2] + " and some " + thomsCloset[2][0])
 thomsCloset[1][2] = 'Footie Pajamas'
 console.log(thomsCloset)
-*/
+
 
 let printGreeting = function(name){
    return `Hello I am ${name}`
 }
 
 console.log(printGreeting('Adam'))
-
+//I never had this problem before 
+*/
+let printCool = function(name){
+	return `${name} are cool`
+}
+console.log(printCool('You'))
 
 
 
