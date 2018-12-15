@@ -161,7 +161,7 @@ let number = 7
  }else {
  	console.log('monkey')
  }
-*/
+
 
 const kristynsCloset = [
   "left shoe",
@@ -199,9 +199,13 @@ kristynsCloset[5] = 'stained knit hat'
 //console.log('Thom is looking fierce in a ' + thomsCloset[0][0] + " , " + thomsCloset[1][2] + " and some " + thomsCloset[2][0])
 thomsCloset[1][2] = 'Footie Pajamas'
 console.log(thomsCloset)
+*/
 
+let printGreeting = function(name){
+   return `Hello I am ${name}`
+}
 
-
+console.log(printGreeting('Adam'))
 
 
 
