@@ -164,3 +164,15 @@
 // ourClass[4] = "Octocat"
 // ourClass.push("Cloud City")
 // console.log(ourClass)
+
+// E
+// const myArray = [5, 10, 500, 20]
+// // 1
+// myArray.push("Egon", "Raymond")
+// myArray.shift()
+// myArray.unshift("Bob Marley")
+// myArray.splice(4,1)
+// myArray.reverse()
+// console.log(myArray)
+// The Reverse method reverses the order of the array. So 0, 1, 2 will now be , 2, 1, 0
+// I believe this will permanently reverse the array so if ever called again it will be reversed.
