@@ -302,6 +302,7 @@ let getRandomElement = function(random){
 console.log(getRandomElement(quotes))
 */
 
+
 user = {
 	name: 'Jimmy',
 	email: 'jimmytwothumbs@sixsquared.com',
@@ -309,6 +310,8 @@ user = {
 	purchased: []
 }
 
-
+user.email = 'jimmyonlyonethumbnow@sixsquared.com'
+user.age++
+console.log(user)
 
 
