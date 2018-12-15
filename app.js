@@ -134,3 +134,10 @@ let thomsPants = thomsCloset[1][0]
 let thomsAccessory = thomsCloset[2][0]
 console.log("Thoms is wearing "+thomsShirt+" "+thomsPants+" "+thomsAccessory+" today!")
 thomsCloset[1][2] = "Footie Pajamas"
+
+function printGreeting(name)
+{
+	return (`Hello I'm ${name}`)
+}
+console.log(printGreeting("Jake"))
+
