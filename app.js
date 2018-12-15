@@ -69,7 +69,7 @@ console.log("Hello, my name is " + myName)
   //Arrays do not guarantee order
   //Anything that can be put in a list can be inserted into an array, students in a school, email addresses in a database, phone numbers in a form
 
-  let quotes = ["Hello", "These Are", "Quotes"]
+  let quotes = ["Hello", "These Are", "Quotes", "I", "Like", "Quotes", "Ok"]
 
   const randomThings = [1, 10, "Hello", true]
   console.log(randomThings[0])
@@ -239,4 +239,34 @@ function reverseWordOrder(string)
 }
 
 console.log(reverseWordOrder("Hello my name is Jacob"))
+
+function randomNumber1()
+{
+	return Math.floor(Math.random()* 10 + 1)
+} 
+console.log(randomNumber1())
+
+function randomNumber2()
+{
+	return Math.floor(Math.random() * 91 + 10)
+}
+console.log(randomNumber2())
+
+function randomNumber3()
+{
+	return Math.random()*12735+532
+}
+console.log(randomNumber3())
+
+function randomNumber4()
+{
+	return Math.random()*10+1
+}
+console.log(randomNumber4())
+
+function getRandomElement(array)
+{
+	return array[Math.floor(Math.random()*array.length)]
+}
+console.log(getRandomElement(quotes))
 
