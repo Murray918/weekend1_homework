@@ -207,12 +207,16 @@ let printGreeting = function(name){
 
 console.log(printGreeting('Adam'))
 //I never had this problem before 
-*/
+
 let printCool = function(name){
 	return `${name} are cool`
 }
 console.log(printCool('You'))
-
+*/
+let calculateCube = function(number){
+   return number ** 3
+}
+console.log(calculateCube(5))
 
 
 
