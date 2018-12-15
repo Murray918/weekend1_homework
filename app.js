@@ -96,8 +96,11 @@
 // }
 
 // 2
-// for (let i = 0; i <= 100; i++){
-// 	if(i % 5 === 0){
-// 		console.log("I found a " + i + ". High five!")
-// 	}
-// }
+for (let i = 3; i <= 100; i++){
+	if(i % 3 === 0){
+		console.log("I found a " + i + ". Three is a crowd")
+	}
+	else if(i % 5 == 0){
+		console.log("I found a " + i + ". High five!")
+	}
+}
