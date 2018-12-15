@@ -217,7 +217,7 @@ let calculateCube = function(number){
    return number ** 3
 }
 console.log(calculateCube(5))
-*/
+
 let isVowel = function(letter){
    if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
     return true
@@ -227,7 +227,11 @@ let isVowel = function(letter){
 }
 
 console.log(isVowel('o'))
-
+*/
+let getTwoLengths = function(fun, name){
+  return [fun.length, name.length]
+}
+console.log(getTwoLengths('Cheese', 'Grilled Cheese'))
 
 
 
