@@ -282,3 +282,7 @@ user.email = "saucyschoolboy@sillynoodle.com"
 user.age++
 
 user.location = "Mercury"
+
+user.purchased.push("carbohydrates","peace of mind","Merino jodhpurs")
+console.log(user.purchased[2])
+
