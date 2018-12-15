@@ -293,14 +293,21 @@ let randomNumer = function(){
 	return (Math.random()* 10 + 1)
 }
 console.log(randomNumer())
-*/
+
 quotes = ["Hello", "Goodbye", "Wow", "Easy", "Hard", "Never"]
 
 let getRandomElement = function(random){
    return random[Math.floor(Math.random()*random.length)]
 }
 console.log(getRandomElement(quotes))
+*/
 
+user = {
+	name: 'Jimmy',
+	email: 'jimmytwothumbs@sixsquared.com',
+	age: 590,
+	purchased: []
+}
 
 
 
