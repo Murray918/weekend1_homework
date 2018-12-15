@@ -232,7 +232,7 @@ let getTwoLengths = function(fun, name){
   return [fun.length, name.length]
 }
 console.log(getTwoLengths('Cheese', 'Grilled Cheese'))
-*/
+
 
 
 let getMultipleLengths = function(stuff){
@@ -243,8 +243,13 @@ let getMultipleLengths = function(stuff){
   return i
 }
 console.log(getMultipleLengths(["goodbye", "yes", "hello", "up", "dude"]))
+*/
 
+let maxOfThree = function(number1, number2, number3){
+  return Math.max(number1, number2, number3)
+}
 
+console.log(maxOfThree(567, 789,56));
 
 
 
