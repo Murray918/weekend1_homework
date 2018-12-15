@@ -227,13 +227,22 @@ let isVowel = function(letter){
 }
 
 console.log(isVowel('o'))
-*/
+
 let getTwoLengths = function(fun, name){
   return [fun.length, name.length]
 }
 console.log(getTwoLengths('Cheese', 'Grilled Cheese'))
+*/
 
 
+let getMultipleLengths = function(stuff){
+  let i = [] 
+  for(let x = 0; x < stuff.length; x++){
+  	i.push(stuff[x].length)
+  }
+  return i
+}
+console.log(getMultipleLengths(["goodbye", "yes", "hello", "up", "dude"]))
 
 
 
