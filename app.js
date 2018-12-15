@@ -137,7 +137,7 @@ ourClass.splice(4, 1, 'Octocat')
 //console.log(ourClass)
 ourClass.push('Cloud City')
 console.log(ourClass)
-*/
+
 const myArray = [5, 10, 500, 20]
 myArray.push('Egon', 'fresh')
 myArray.splice(0, 1)
@@ -145,7 +145,13 @@ myArray.unshift('Bob Marley')
 myArray.pop()
 myArray.reverse()
 console.log(myArray)
-
+*/
+let rapper = 789
+if(rapper < 100){
+	console.log('little number')
+}else{
+	console.log('big number')
+}
 
 
 
