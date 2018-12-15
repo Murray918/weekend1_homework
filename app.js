@@ -176,3 +176,12 @@
 // console.log(myArray)
 // The Reverse method reverses the order of the array. So 0, 1, 2 will now be , 2, 1, 0
 // I believe this will permanently reverse the array so if ever called again it will be reversed.
+
+// F
+// let myNumber = 0
+// if(myNumber < 100){
+// 	console.log("little number")
+// }
+// else{
+// 	console.log("big number")
+// }
