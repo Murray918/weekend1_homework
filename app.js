@@ -313,3 +313,25 @@
 // 	 console.log(longest)
 // }
 // printLongestWord(names)
+
+// I
+// Don't understand how to solve problem
+// let transmogrify = function(num1, num2, num3){
+// 	return num1 * num2
+// }
+// transmogrify(5, 3, 2)
+
+// J
+// Couldn't solve
+// let reverseOrder = function(string){
+// 	let revArray = []
+// 	for(let i = string.length-1; i >= 0; i--)
+// 	{
+// 		revArray.push(string[i])
+// 	}
+
+// 	console.log(revArray)
+// }
+// reverseOrder("Hello world")
+
+// K
