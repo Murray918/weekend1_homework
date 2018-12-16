@@ -101,3 +101,11 @@ myArray.splice(4,1)
 console.log(myArray)
 myArray.reverse()
 console.log(myArray)
+
+for (q = 0; q < 15; q++){
+	if (q < 5){
+		console.log("Little Number")
+	} else if ( q > 10){
+		console.log("Big Number")
+	} else (console.log("Monkey"))
+}
