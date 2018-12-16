@@ -130,6 +130,19 @@ for (let loopCount4 = 1; loopCount4 <= 100; loopCount4++)
 
 console.log(`******* #2.C) Give me 5's *******` );
 
+for (let loopCount5 = 0; loopCount5 <= 100; loopCount5++)
+{
+	if (loopCount5 % 5 == 0)
+		console.log(`I found a ${loopCount5}. High Five!`);
+	else if (loopCount5 % 3 == 0)
+		console.log(`I found a ${loopCount5}. Three is a crowd`);
+}
+
+
+console.log(`******* #2.D) Savings Account *******` );
+
+
+
 
 
 
