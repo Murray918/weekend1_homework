@@ -297,3 +297,37 @@ const thomsCloset = [
 ];
 
 
+//What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
+console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`);
+
+//Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+let chop = kristynsCloset.splice(-1,1,"raybans")
+kristynsCloset.push(String(chop));
+console.log(kristynsCloset);
+
+//Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+let val = kristynsCloset.lastIndexOf('yellow knit hat');
+kristynsCloset[val] = "stained knit hat";
+console.log(kristynsCloset);
+//Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+console.log(thomsCloset[0][0]);
+//In the same way, access one item from Thom's pants array.
+console.log(thomsCloset[1][2]);
+//Access one item from Thom's accessories array.
+console.log(thomsCloset[2][2]);
+//Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log(`Tom is looking fierce in the ${thomsCloset[0][3]}, ${thomsCloset[1][2]} and ${thomsCloset[2][2]} `);
+//Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+
+val = thomsCloset[1].lastIndexOf('PJs');
+thomsCloset[1][val] = "Footie Pajamas";
+console.log(thomsCloset);
+
+
+
+console.log(`******* #4.A) printGreeting *******` );
+
+
+
+
+
