@@ -85,9 +85,20 @@ for (let animals of animalArray )
 
 
 
-
-
 console.log(`******* #1.E) Driver's Ed *******` );
 
+let ageArray = ["16", "12", "23", "55", "15"]
+let driversThreshold = 16;
 
+for (let ages of ageArray )
+{
+	if (ages >= driversThreshold)
+	{
+		console.log(`Here are the keys.  Age = ${ages}`);
+	}
+	else
+	{
+		console.log(`Sorry, you are too young!  Age = ${ages}`);
+	}
+}
 
