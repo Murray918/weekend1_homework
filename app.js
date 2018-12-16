@@ -384,3 +384,19 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 console.log(`******* #4.F) getMultipleLengths *******` );
 
+let getMultipleLengths = function(array)
+{
+	let arrayStringLength =  [];
+	for (elements of array)
+	{
+		arrayStringLength.push(elements.length)	
+	}
+	return arrayStringLength;
+}
+
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+console.log(`******* #4.G) maxOfThree *******` );
+
+
+
