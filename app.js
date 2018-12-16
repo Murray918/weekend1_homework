@@ -155,7 +155,7 @@ randomThings[2] = "World"
 	console.log(randomThings[2])
 */
 
-
+/*
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
 ourClass[2]
@@ -165,4 +165,19 @@ ourClass[4] = "Octocat"
 ourClass.push("Cloud City")
 
 console.log(ourClass)
+*/
 
+
+const myArray = [5, 10, 500, 20]
+
+myArray.push("Egon", "Frodo")
+
+myArray.splice(0,1)
+
+myArray.splice(0,0, "Bob Marley")
+
+myArray.pop()
+
+myArray.reverse()
+
+console.log(myArray)
