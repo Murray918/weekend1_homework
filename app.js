@@ -325,12 +325,12 @@
 // Couldn't solve
 // let reverseOrder = function(string){
 // 	let revArray = []
-// 	for(let i = string.length-1; i >= 0; i--)
+// 	for(let i = 1; i >= 0; i--)
 // 	{
-// 		revArray.push(string[i])
+// 		revArray.push(string)
 // 	}
 
-// 	console.log(revArray)
+// 	console.log(revArray[0][6])
 // }
 // reverseOrder("Hello world")
 
@@ -377,11 +377,22 @@ let user = {
 	age: "43",
 	purchased:[]
 }
-// B
-user.email = "John.n@Yahoo.com"
-user.age++
+// // B
+// user.email = "John.n@Yahoo.com"
+// user.age++
 
-// C
+// // C
 user.location = "USA"
-user.purchased.push("carbohydrates", "peace of mind", "Merinojodhpurs")
-console.log(user)
+for(let i = 0; i < 3; i++){
+	
+	if(user.purchased[0] != "carbohydrates"){
+		user.purchased.push("carbohydrates")
+	}
+	else if(user.purchased[1] != "Peace of mind"){
+		user.purchased.push("Peace of mind")
+	}
+	else{
+		user.purchased.push("Merinojodhpurs")
+	}
+}
+console.log(user.purchased)
