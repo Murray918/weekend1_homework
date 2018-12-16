@@ -370,3 +370,10 @@
 // }
 // quotesArray(["0", "1", "2"])
 
+// Objects
+let user = {
+	name: "John",
+	email: "John@John.com",
+	age: "43",
+	purchased:[]
+}
