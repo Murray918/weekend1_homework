@@ -261,6 +261,45 @@ console.log("Thom is looking fierce in a " + thomsCloset[0][0] + ", " + thomsClo
 
 thomsCloset[1][2] = "footie pajamas"
 
-console.log(thomsCloset[1][2])
+//Functions
+//a. printGreeting
 
+let printGreeting = function(name){
+	console.log("Hello there, " + name +"!")
+
+}
+
+printGreeting("Andy");
+
+//b.
+
+let printCool = function(name){
+	console.log(name + " is cool")
+
+}
+
+printCool("Andy");
+
+//c.
+
+let calculateCube = function(number){
+	return number * number
+}
+
+
+console.log(calculateCube(3))
+
+//d.
+let isVowel = function(vowel){
+	//let vowel = ["a","e","i","o","u"]
+	if(vowel.length <= 1 && vowel === "a" || vowel === "e" || vowel === "i" || vowel === "o" || vowel === "u")
+		console.log(true)
+	else{
+		console.log(false)
+
+	}
+
+}
+
+isVowel("b");
 
