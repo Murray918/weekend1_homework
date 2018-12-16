@@ -327,7 +327,12 @@ console.log(thomsCloset);
 
 console.log(`******* #4.A) printGreeting *******` );
 
+let printGreeting = function(str)
+{
+	return `Hello there, ${str}!`
+}
 
+console.log(printGreeting("Slimer"));
 
-
+console.log(`******* #4.B) printCool *******` );
 
