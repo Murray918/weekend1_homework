@@ -383,3 +383,5 @@ user.age++
 
 // C
 user.location = "USA"
+user.purchased.push("carbohydrates", "peace of mind", "Merinojodhpurs")
+console.log(user)
