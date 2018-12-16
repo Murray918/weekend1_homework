@@ -383,18 +383,20 @@ let user = {
 
 // // C
 // user.location = "USA"
-// for(let i = 0; i < 3; i++){
+for(let i = 0; i < 3; i++){
 
-// 	if(user.purchased[0] != "carbohydrates"){
-// 		user.purchased.push("carbohydrates")
-// 	}
-// 	else if(user.purchased[1] != "Peace of mind"){
-// 		user.purchased.push("Peace of mind")
-// 	}
-// 	else{
-// 		user.purchased.push("Merinojodhpurs")
-// 	}
-// }
+	if(user.purchased[0] != "carbohydrates"){
+		user.purchased.push("carbohydrates")
+	}
+	else if(user.purchased[1] != "Peace of mind"){
+		user.purchased.push("Peace of mind")
+	}
+	else{
+		user.purchased.push("Merinojodhpurs")
+	}
+}
+
+// E
 user.friend = {
 	name: "Grace Hopper",
 	age: 85,
@@ -403,4 +405,9 @@ user.friend = {
 }
 user.friend.age = 55
 user.friend.purchased.push("The One Ring", "latte")
-console.log(user.friend.name, user.friend.location, user.friend.purchased[1])
+// console.log(user.friend.name, user.friend.location, user.friend.purchased[1])
+
+// F
+for(let i = 0; i < user.purchased.length; i++){
+	console.log(user.purchased[i], user.friend.purchased[i])
+}
