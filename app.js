@@ -164,6 +164,21 @@ console.log(`Skipped because this was done already in a previous assignment.  Pl
 
 
 console.log(`******* #3.A) Talk about it *******` );
+console.log(`Elements` );
+console.log(`No they are not guaranteed to be sorted` );
+console.log(`My collection of Star Wars Toys can be placed into an array` );
+
+/*
+- What are the things in an array called?
+Elements
+- Do Arrays guarantee those things will be in order?
+No
+- What real-life thing could you model with an array?
+My collection of Star Wars Toys
+*/
+
+
+console.log(`******* #3.B) Easy does it *******` );
 
 
 
