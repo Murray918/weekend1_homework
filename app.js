@@ -29,7 +29,7 @@ A.6  Thinking about how to solve the problem should take ~80% of the time and co
 
 //1.2)  Strings
 
-console.log(`******* #1.2) Strings *******` );
+console.log(`******* #1.B) Strings *******` );
 
 let firstVariable;
 firstVariable = "Hello World";
@@ -47,7 +47,7 @@ console.log(func(yourName));
 
 
 //1.3)  Booleans.  Make the console statement print true
-console.log(`******* #1.3) Booleans *******` );
+console.log(`******* #1.C) Booleans *******` );
 
 const a = 4;
 const b = 53;
@@ -65,5 +65,29 @@ console.log(e === 'Kevin');
 console.log(a < b < c);
 console.log(a == a != d);
 console.log(48 == '48');
+
+
+console.log(`******* #1.D) The Farm *******` );
+let animalArray = ["cow", "dog", "cat", "horse", "cow"]
+let animal = "moo";
+
+for (let animals of animalArray )
+{
+	if (animals === "cow")
+	{
+		console.log(`Mooooo  You are a ${animals}`);
+	}
+	else
+	{
+		console.log(`You are not a cow!!! You are a ${animals}`);
+	}
+}
+
+
+
+
+
+console.log(`******* #1.E) Driver's Ed *******` );
+
 
 
