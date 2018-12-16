@@ -185,6 +185,13 @@ let quotes = ["Aye Pirate", "What you looking at?", "Merry Xmas!"];
 
 console.log(`******* #3.C) Accessing elements *******` );
 
+const randomThings = [1, 10, "Hello", true]
+
+randomThings[2] = "World";
+console.log(randomThings);
+
+console.log(`******* #3.D) Change values *******` );
+
 
 
 
