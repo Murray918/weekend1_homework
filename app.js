@@ -44,3 +44,12 @@ if (animal = "cow"){
 else {
 		console.log("Hey! You're not a cow!")
 	}
+
+// E.
+let driversAge = 16
+if (driversAge >= 16) {
+	console.log("Here are the keys.")
+}
+else {
+	console.log("Sorry, you're too young.")
+}
