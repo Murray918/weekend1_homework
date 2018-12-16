@@ -167,7 +167,7 @@ ourClass.push("Cloud City")
 console.log(ourClass)
 */
 
-
+/*
 const myArray = [5, 10, 500, 20]
 
 myArray.push("Egon", "Frodo")
@@ -181,3 +181,13 @@ myArray.pop()
 myArray.reverse()
 
 console.log(myArray)
+*/
+
+
+let x = 222;
+
+if (x<100) {
+	console.log("little number")
+} else {
+	console.log("big number")
+}
