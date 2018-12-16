@@ -1,4 +1,4 @@
-//1) Variables & Datatypes
+//1.1) Variables & Datatypes
 
 /*
 Q.1 How do we assign a value to a variable?
@@ -27,7 +27,9 @@ A.6  Thinking about how to solve the problem should take ~80% of the time and co
      Another average is a programmer can program 10 lines of tested code per day!
 */
 
-//2)  
+//1.2)  Strings
+
+console.log(`******* #1.2) Strings *******` );
 
 let firstVariable;
 firstVariable = "Hello World";
@@ -41,8 +43,27 @@ let func = function(str)
 {
 	return `Hello, my name is ${yourName}`;
 }
-
 console.log(func(yourName));
 
+
+//1.3)  Booleans.  Make the console statement print true
+console.log(`******* #1.3) Booleans *******` );
+
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+
+console.log(a < b);
+console.log(c > d);
+console.log('Name' === 'Name');
+console.log(true !== false);
+console.log(false == false == false == false == false == false == true);
+console.log(false === false)
+console.log(e === 'Kevin');
+console.log(a < b < c);
+console.log(a == a != d);
+console.log(48 == '48');
 
 
