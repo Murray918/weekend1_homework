@@ -70,18 +70,27 @@ for (let z = 3; z <= 100; z++){
 			console.log("I found a " + z + ". " + "Three is a crowd.")
 }
 // D.
- 1.
+ // 1.
 let bank_account = 0
 for (let x = 0; x <= 10; x++){
 	bank_account+=x
 }
 // console.log(bank_account)
 //  2.
-let bank_account = 0
+bank_account = 0
 for (let x = 0; x <= 100; x++){
 	bank_account+=x
 }
 console.log(bank_account*2)
+
+// E.
+let sum = 0
+for (j = 1; j <= 1000; j++)
+	if (j % 3 == 0 || j % 5 ==0){
+    sum += j}
+		console.log(sum)
+
+
 
 
 
