@@ -180,6 +180,11 @@ My collection of Star Wars Toys
 
 console.log(`******* #3.B) Easy does it *******` );
 
+let quotes = ["Aye Pirate", "What you looking at?", "Merry Xmas!"];
+
+
+console.log(`******* #3.C) Accessing elements *******` );
+
 
 
 
