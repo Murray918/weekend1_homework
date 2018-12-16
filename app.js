@@ -65,3 +65,9 @@ for (z = 0; z < 101; z++){
 		console.log(z)
 	}
 }
+// 2-b-2
+for (b = 0; b < 101; b++){
+	if(b % 2 ===0 ){
+		console.log(b + " is an even number")
+	} else (console.log(b))
+}
