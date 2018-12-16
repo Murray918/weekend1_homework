@@ -45,6 +45,16 @@ secoundVariable = 'Goodbye world'
   console.log(48 == '48');
 */
 
+//D 
+
+let animal = 'cow'
+
+if(animal != 'cow'){
+	console.log('your not a cow!!')
+} else {
+	console.log('MOOOOO')
+}
+
 
 
 
