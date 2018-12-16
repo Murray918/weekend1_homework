@@ -158,4 +158,15 @@ for (let loopCount7 = 1; loopCount7 <= 100; loopCount7++)
 console.log(`I should have \$${bankAccount}. Due to a massive pay raise!!!`);
 
 console.log(`******* #2.E) Multiples of 3 and 5 *******` );
+//I did this problem in the last homework assignment.  Please see Github Arrays_Loops_Objects-Homework repository
+console.log(`Skipped because this was done already in a previous assignment.  Please see Github repository called "Arrays_Loops_Objects-Homework"` );
+
+
+
+console.log(`******* #3.A) Talk about it *******` );
+
+
+
+
+
 
