@@ -85,3 +85,9 @@ for (d = 0; d < 101; d++){
 		console.log("I found a " + d + ". Three is a crowd")
 	}
 }
+
+//d 1
+const Ourclass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+console.log(Ourclass[2])
+Ourclass.splice(4,1,"Cloud City")
+console.log(Ourclass)
