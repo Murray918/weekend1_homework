@@ -39,23 +39,29 @@
 // }
 
 //||
-//a.
+//2-a-1
 
 let x = 0
 while (x < 11){
 	console.log(x)
 	x++
 }
-//11 b
+//2-a-2
 let y = 10
 while (y < 401){
 	console.log(y)
 	y++
 }
 
-//11c 
+//2-a-3
 for (i = 12; i < 4000; i++){
 	if ( i % 3 ===0){
 		console.log(i)
+	}
+}
+// 2-b-1
+for (z = 0; z < 101; z++){
+	if(z % 2 ===0 ){
+		console.log(z)
 	}
 }
