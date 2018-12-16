@@ -99,6 +99,11 @@ for (j = 1; j <= 1000; j++)
 //  B.
 let quotes = ["I have pop pop in the attic", "Her?", "Has anybody in this family ever seen a chicken?"]
 
+//  C.
+const randomThings = [1, 10, "Hello", true]
+randomThings[0]
+randomThings[2] = "World"
+console.log(randomThings)
 
 
 
