@@ -231,9 +231,26 @@ myArray.reverse();
 console.log(myArray);
 
 console.log(`******* #3.F) Biggie Smalls *******` );
+let bigSmall = [101,201,4,88,999,69,888];
+
+for (let i=0; i<bigSmall.length; ++i )
+{
+	if (bigSmall[i] < 100 )
+	{
+		console.log(`Number is: ${bigSmall[i]}.  little number`);
+	}
+	else
+	{
+		console.log(`Number is: ${bigSmall[i]}.  BIG number`);
+
+	}
+}
+
+console.log(`******* #3.G) Monkey in the Middle *******` );
 
 
 
+console.log(`******* #3.H) What's in Your Closet? *******` );
 
 
 
