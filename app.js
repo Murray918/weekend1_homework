@@ -335,3 +335,38 @@
 // reverseOrder("Hello world")
 
 // K
+// 1
+// let getRandom = function(max, min){
+// 	let maxMin = Math.floor(Math.random()*max + min)
+// 	console.log(maxMin)
+// }
+// getRandom(10, 1)
+
+// 2
+// let getRandom = function(max, min){
+// 	let maxMin = Math.floor(Math.random()*max + min)
+// 	console.log(maxMin)
+// }
+// getRandom(100, 10)
+
+// 3
+// let getRandom = function(max, min){
+// 	let maxMin = Math.floor(Math.random() * min + max)
+// 	console.log(maxMin)
+// }
+// getRandom(532, 13267)
+
+// 4
+// let getRandom = function(max, min){
+// 	let maxMin = Math.floor(Math.random()*min + max)
+// 	console.log(maxMin)
+// }
+// getRandom(1, 10)
+
+// 5
+// let quotesArray = function(snazArray){
+// 	let getRandomElement = Math.floor(Math.random()*snazArray.length)
+// 	console.log(snazArray[getRandomElement])
+// }
+// quotesArray(["0", "1", "2"])
+
