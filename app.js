@@ -91,3 +91,9 @@ const Ourclass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 console.log(Ourclass[2])
 Ourclass.splice(4,1,"Cloud City")
 console.log(Ourclass)
+
+const myArray = [5, 10, 500, 20]
+myArray.push("Egon","Jules")
+console.log(myArray)
+myArray.splice(0,0,"Bob Marley")
+console.log(myArray)
