@@ -59,4 +59,6 @@ else {
 for (let x = 0; x <= 10; x++)
 for (let x = 10; x <= 400; x++)
 for (let x = 12; x <= 4000; x+=3)
-	
+// B.
+for (let y = 2; y <=100; y+=2)
+	console.log(y + " <-- is an even number")
