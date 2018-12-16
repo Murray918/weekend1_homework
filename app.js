@@ -61,13 +61,27 @@ for (i = 12; i < 4000; i++){
 }
 // 2-b-1
 for (z = 0; z < 101; z++){
-	if(z % 2 ===0 ){
+	if(z % 2 === 0 ){
 		console.log(z)
 	}
 }
 // 2-b-2
 for (b = 0; b < 101; b++){
-	if(b % 2 ===0 ){
+	if(b % 2 === 0 ){
 		console.log(b + " is an even number")
 	} else (console.log(b))
+}
+//2-c-1
+for (d = 0; d < 101; d++){
+	if (d % 5 === 0){
+		console.log("I found a " + d + ". High five!")
+	}
+}
+// 2-c-2
+for (d = 0; d < 101; d++){
+	if (d % 5 === 0){
+		console.log("I found a " + d + ". High five!")
+	}else if( d % 3 === 0){
+		console.log("I found a " + d + ". Three is a crowd")
+	}
 }
