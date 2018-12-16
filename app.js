@@ -249,9 +249,17 @@ console.log("Thom is looking fierce in a",thomsCloset[0][0], ",", thomsCloset[1]
 thomsCloset[1][2] = "Pajamas"
 */
 
-
+/*
 let printGreeting = function (name) {
 	return "Hello there, " + name	
 }
 
 console.log(printGreeting("Slimer"))
+*/
+
+function printCool (name) {
+	return name + " is cool!"
+}
+
+console.log(printCool("Jamal"))
+
