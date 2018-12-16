@@ -382,29 +382,29 @@ let user = {
 // user.age++
 
 // // C
-user.location = "USA"
-for(let i = 0; i < 3; i++){
+// user.location = "USA"
+// for(let i = 0; i < 3; i++){
 
-	if(user.purchased[0] != "carbohydrates"){
-		user.purchased.push("carbohydrates")
-	}
-	else if(user.purchased[1] != "Peace of mind"){
-		user.purchased.push("Peace of mind")
-	}
-	else{
-		user.purchased.push("Merinojodhpurs")
-	}
-}
+// 	if(user.purchased[0] != "carbohydrates"){
+// 		user.purchased.push("carbohydrates")
+// 	}
+// 	else if(user.purchased[1] != "Peace of mind"){
+// 		user.purchased.push("Peace of mind")
+// 	}
+// 	else{
+// 		user.purchased.push("Merinojodhpurs")
+// 	}
+// }
 
-// E
-user.friend = {
-	name: "Grace Hopper",
-	age: 85,
-	location: "Mongolia",
-	purchased: []
-}
-user.friend.age = 55
-user.friend.purchased.push("The One Ring", "latte")
+// // E
+// user.friend = {
+// 	name: "Grace Hopper",
+// 	age: 85,
+// 	location: "Mongolia",
+// 	purchased: []
+// }
+// user.friend.age = 55
+// user.friend.purchased.push("The One Ring", "latte")
 // console.log(user.friend.name, user.friend.location, user.friend.purchased[1])
 
 // F
@@ -417,10 +417,25 @@ user.friend.purchased.push("The One Ring", "latte")
 // 	user.age++
 // 	user.name.charAt(0).toUpperCase()
 // }
-let oldAndLoud = function(person){
-	person.age++
-	person.name.charAt(0).toUpperCase()
-	console.log(person)
-}
-// updateUser()
-oldAndLoud(user)
+// let oldAndLoud = function(person){
+// 	person.age++
+// 	person.name.charAt(0).toUpperCase()
+// 	console.log(person)
+// }
+// // updateUser()
+// oldAndLoud(user)
+
+// let cat1 = {
+// 	name: "Jolly",
+// 	breed: "Sphynx",
+// 	age: 2
+// }
+// let cat2 = {
+// 	name: "Buck",
+// 	breed: "Calico",
+// 	age: 4
+// }
+// let combineCats = function(mama, papa){
+	
+// }
+// combineCats(cat1, cat2)
