@@ -372,17 +372,17 @@
 
 // Objects
 let user = {
-	name: "John",
+	name: "john",
 	email: "John@John.com",
 	age: "43",
 	purchased:[]
 }
-// // B
+// B
 // user.email = "John.n@Yahoo.com"
 // user.age++
 
 // // C
-// user.location = "USA"
+user.location = "USA"
 for(let i = 0; i < 3; i++){
 
 	if(user.purchased[0] != "carbohydrates"){
@@ -408,6 +408,19 @@ user.friend.purchased.push("The One Ring", "latte")
 // console.log(user.friend.name, user.friend.location, user.friend.purchased[1])
 
 // F
-for(let i = 0; i < user.purchased.length; i++){
-	console.log(user.purchased[i], user.friend.purchased[i])
+// for(let i = 0; i < user.purchased.length; i++){
+// 	console.log(user.purchased[i], user.friend.purchased[i])
+// }
+
+// G
+// let updateUser = function(){
+// 	user.age++
+// 	user.name.charAt(0).toUpperCase()
+// }
+let oldAndLoud = function(person){
+	person.age++
+	person.name.charAt(0).toUpperCase()
+	console.log(person)
 }
+// updateUser()
+oldAndLoud(user)
