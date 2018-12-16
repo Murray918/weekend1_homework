@@ -110,7 +110,7 @@ for (let i = 0; i<=100; i++) {
 }
 */
 
-
+/*
 let bank_account = 0;
 
 for (let i = 0; i<=100; i++)  {
@@ -130,7 +130,7 @@ for (let i = 0; i<1000; i++) {
 }
 
 console.log(sum)
-
+*/
 
 //What are the things in an array called?
 //A. primitive or objects, with a numeric value attached to the index
@@ -140,5 +140,8 @@ console.log(sum)
 //
 //What real-life thing could you model with an array?
 //A. a menu
-//
-//
+
+
+
+let  quotes = ["One", "Two", "Three"]
+
