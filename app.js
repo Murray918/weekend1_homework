@@ -377,6 +377,9 @@ let user = {
 	age: "43",
 	purchased:[]
 }
+// B
 user.email = "John.n@Yahoo.com"
 user.age++
-console.log(user.age)
+
+// C
+user.location = "USA"
