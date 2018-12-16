@@ -353,6 +353,23 @@ let calculateCube = function (num)
 console.log(calculateCube(5));
 
 console.log(`******* #4.D) siVowel *******` );
+var re = /a|e|i|o|u/gi;
+
+let isVowel = function(str)
+{
+	if (str.match(re))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+
+}
+
+console.log(isVowel("a"));
 
 
+console.log(`******* #4.E) getTwoLengths *******` );
 
