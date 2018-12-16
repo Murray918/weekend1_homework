@@ -16,3 +16,19 @@
 
 //6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 //A. 75 -90% planning and 10-25% typing code.
+
+/*
+let firstVariable = "Hello World";
+firstVariable = 2;
+
+let secondVariable = firstVariable;
+secondVariable = "Hello Friend";
+
+//the value of firstVariable is 2
+
+let yourName = "Jamal Amar";
+
+console.log("Hello, my name is", `${yourName})
+*/
+
+
