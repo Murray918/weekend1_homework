@@ -102,3 +102,26 @@ for (let ages of ageArray )
 	}
 }
 
+console.log(`******* #2.A) Loops The Basics *******` );
+
+for (let loopCount1 = 0; loopCount1 <= 10; loopCount1++)
+{
+	console.log(`Count is: ${loopCount1}`);
+}
+console.log(`-----------------------------------------------`);
+for (let loopCount2 = 10; loopCount2 <= 400; loopCount2++)
+{
+	console.log(`Count is: ${loopCount2}`);
+}
+console.log(`-----------------------------------------------`);
+for (let loopCount3 = 12; loopCount3 <= 4000; loopCount3++)
+{
+	if (loopCount3 % 3 == 0)
+		console.log(`Count is: ${loopCount3}`);
+}
+
+console.log(`******* #2.B) Get Even *******` );
+
+
+
+
