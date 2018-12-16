@@ -90,6 +90,12 @@ for (j = 1; j <= 1000; j++)
     sum += j}
 		console.log(sum)
 
+// III
+//  A.
+//   1. Elements
+	 // 2. While the position of the elements is determined by the place they hold in the array, items can be moved around with different methods.
+	 // 3. A car, and then list out the properties of the vehicle within the array.
+	 
 
 
 
