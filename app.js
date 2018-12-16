@@ -143,5 +143,13 @@ console.log(sum)
 
 
 
-let  quotes = ["One", "Two", "Three"]
+//let  quotes = ["One", "Two", "Three"]
+
+const randomThings = [1, 10, "Hello", true]
+
+	console.log(randomThings[0])
+
+randomThings[2] = "World"
+	
+	console.log(randomThings[2])
 
