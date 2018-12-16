@@ -191,7 +191,20 @@ randomThings[2] = "World";
 console.log(randomThings);
 
 console.log(`******* #3.D) Change values *******` );
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
+//What would you write to access the 3rd element of the array?
+//The box notation ourClass[2], splice(2,1)
+
+//Change the value of "Github" to "Octocat". 
+//If this array become sorted or changed in any way then this code below is busted!!! 
+ourClass.pop();
+ourClass.push("Octocat");
+console.log(ourClass);
+
+//Add a new element, "Cloud City" to the array.
+ourClass.push("Cloud City");
+console.log(ourClass);
 
 
 
