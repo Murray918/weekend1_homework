@@ -53,3 +53,10 @@ if (driversAge >= 16) {
 else {
 	console.log("Sorry, you're too young.")
 }
+
+// II. Loops
+// A.
+for (let x = 0; x <= 10; x++)
+for (let x = 10; x <= 400; x++)
+for (let x = 12; x <= 4000; x+=3)
+	
