@@ -31,7 +31,7 @@ let yourName = "Jamal Amar";
 console.log("Hello, my name is", `${yourName})
 */
 
-
+/*
   const a = 4;
   const b = 53;
   const c = 57;
@@ -48,3 +48,13 @@ console.log("Hello, my name is", `${yourName})
   console.log(a < b < c);
   console.log(a && a < d);
   console.log(48 !== '48');
+*/
+
+let animal = "cow";
+
+if (animal === "cow") {
+	console.log("Mooooooo")
+}
+	else {
+		console.log("Hey! You're not a cow")
+}
