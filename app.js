@@ -50,6 +50,7 @@ console.log("Hello, my name is", `${yourName})
   console.log(48 !== '48');
 */
 
+/*
 let animal = "cow";
 
 if (animal === "cow") {
@@ -57,4 +58,17 @@ if (animal === "cow") {
 }
 	else {
 		console.log("Hey! You're not a cow")
+}
+*/
+
+
+let jamal = {
+	age: 24
+}
+
+if (jamal.age >= 16) {
+	console.log("Here are the keys")
+}
+else {
+	console.log("Sorry, you're too young")
 }
