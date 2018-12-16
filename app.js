@@ -398,5 +398,14 @@ console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
 console.log(`******* #4.G) maxOfThree *******` );
 
+let maxOfThree = function(nums1,nums2,nums3)
+{
+	let maxNum = [];  //empty array
+	maxNum.push(nums1, nums2, nums3);  //push individual numbers into an array to sort
+	maxNum.sort((a, b) => b - a);  //sort from max to min
+	return maxNum.shift();  //return the first element which should be the largest number 
+}
 
+console.log(maxOfThree(6, 9, 1));
 
+console.log(`******* #4.H) printLongestWord *******` );
