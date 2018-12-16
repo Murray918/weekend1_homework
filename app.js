@@ -343,6 +343,16 @@ let printCool = function(name)
 
 console.log(printCool("Captain Reynolds"));
 
+console.log(`******* #4.C) calculateCube *******` );
+
+let calculateCube = function (num)
+{
+	return num*num*num;
+}
+
+console.log(calculateCube(5));
+
+console.log(`******* #4.D) siVowel *******` );
 
 
 
