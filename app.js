@@ -382,17 +382,25 @@ let user = {
 // user.age++
 
 // // C
-user.location = "USA"
-for(let i = 0; i < 3; i++){
-	
-	if(user.purchased[0] != "carbohydrates"){
-		user.purchased.push("carbohydrates")
-	}
-	else if(user.purchased[1] != "Peace of mind"){
-		user.purchased.push("Peace of mind")
-	}
-	else{
-		user.purchased.push("Merinojodhpurs")
-	}
+// user.location = "USA"
+// for(let i = 0; i < 3; i++){
+
+// 	if(user.purchased[0] != "carbohydrates"){
+// 		user.purchased.push("carbohydrates")
+// 	}
+// 	else if(user.purchased[1] != "Peace of mind"){
+// 		user.purchased.push("Peace of mind")
+// 	}
+// 	else{
+// 		user.purchased.push("Merinojodhpurs")
+// 	}
+// }
+user.friend = {
+	name: "Grace Hopper",
+	age: 85,
+	location: "Mongolia",
+	purchased: []
 }
-console.log(user.purchased)
+user.friend.age = 55
+user.friend.purchased.push("The One Ring", "latte")
+console.log(user.friend.name, user.friend.location, user.friend.purchased[1])
