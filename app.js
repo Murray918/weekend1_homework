@@ -427,3 +427,17 @@ console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanut
 
 
 console.log(`******* #4.I) transmogrify *******` );
+
+let transmogrify = function(nums1,nums2,nums3)
+{
+	
+	return (nums1*nums2)**nums3;  //return the the first number times 2nd number to the power of the 3rd number
+}
+
+console.log(transmogrify(5, 3, 2));
+
+
+
+console.log(`******* #4.J) reverseWordOrder v2 *******` );
+
+
