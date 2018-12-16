@@ -56,9 +56,18 @@ else {
 
 // II. Loops
 // A.
-for (let x = 0; x <= 10; x++)
-for (let x = 10; x <= 400; x++)
-for (let x = 12; x <= 4000; x+=3)
+// for (let x = 0; x <= 10; x++)
+// for (let x = 10; x <= 400; x++)
+// for (let x = 12; x <= 4000; x+=3)
 // B.
 for (let y = 2; y <=100; y+=2)
 	console.log(y + " <-- is an even number")
+// C.
+for (let z = 3; z <= 100; z++){
+	if (z % 5 === 0)
+		console.log("I found a " + z + ". " + "High five!")
+	if (z % 3 === 0)
+			console.log("I found a " + z + ". " + "Three is a crowd.")
+}
+
+
