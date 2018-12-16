@@ -150,8 +150,63 @@ let naturalNumbers = function(sum){
 naturalNumbers(0)
 	
 	
-/*
-an array is made up of elements
+/* A. Talk about it:
+- an array is made up of elements
+- No
+- Test scores
+
+
+*/
+
+//B.
+
+let quotes = ["hey", "wassup", "hello"]
+//C.
+const randomThings = [1, 10, "Hello", true]
+
+randomThings[0]
+
+randomThings[2] = "World"
+
+//console.log(randomThings)
+
+//D. Change values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+ourClass[2]
+
+ourClass[4] = "Octocat"
+
+ourClass.push("Cloud City");
+
+//E. Mix it up
+
+const myArray = [5, 10, 500, 20]
+
+myArray.push("Egon")
+myArray.push("Aluko")
+
+myArray.unshift("Bob Marley")
+
+myArray.pop()
+
+myArray.reverse()
+
+
+console.log(myArray)
+
+
+
+//F. Biggie Smalls
+
+let x = 105
+
+if( x < 100)
+console.log("little number")
+else{
+	console.log("big number")
+}
 
 
 
