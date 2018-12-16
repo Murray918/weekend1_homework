@@ -69,5 +69,19 @@ for (let z = 3; z <= 100; z++){
 	if (z % 3 === 0)
 			console.log("I found a " + z + ". " + "Three is a crowd.")
 }
+// D.
+ 1.
+let bank_account = 0
+for (let x = 0; x <= 10; x++){
+	bank_account+=x
+}
+// console.log(bank_account)
+//  2.
+let bank_account = 0
+for (let x = 0; x <= 100; x++){
+	bank_account+=x
+}
+console.log(bank_account*2)
+
 
 
