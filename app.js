@@ -31,7 +31,7 @@
 // 	console.log("moooo")
 // } else {console.log("Hey! You're not a cow!")}
 
-// //e
+// //e--coming back to E
 
 // let age = x
 // for ( let i = 10 ; i <25 ; i++){
@@ -51,4 +51,11 @@ let y = 10
 while (y < 401){
 	console.log(y)
 	y++
+}
+
+//11c 
+for (i = 12; i < 4000; i++){
+	if ( i % 3 ===0){
+		console.log(i)
+	}
 }
