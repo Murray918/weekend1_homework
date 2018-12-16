@@ -158,3 +158,9 @@ let printCool = function(name) {
 }
 
 console.log(printCool("Jules"))
+
+//5
+let calculateCube = function(number) {
+	return number * number * number 
+}
+console.log(calculateCube(8))
