@@ -373,3 +373,14 @@ console.log(isVowel("a"));
 
 console.log(`******* #4.E) getTwoLengths *******` );
 
+let getTwoLengths = function(str1,str2)
+{
+	let array =  [];
+	array.push(str1.length, str2.length)
+	return array;
+}
+
+console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+console.log(`******* #4.F) getMultipleLengths *******` );
+
