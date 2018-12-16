@@ -46,7 +46,7 @@ secoundVariable = 'Goodbye world'
 */
 
 //D 
-
+/*
 let animal = 'cow'
 
 if(animal != 'cow'){
@@ -54,6 +54,23 @@ if(animal != 'cow'){
 } else {
 	console.log('MOOOOO')
 }
+*/
+//E
+
+let age = 17 
+
+if( age >= 16){
+	console.log('Here are the keys')
+} else {
+	console.log('Sorry your to young to drive')
+}
+
+
+
+
+
+
+
 
 
 
