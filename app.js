@@ -440,4 +440,29 @@ console.log(transmogrify(5, 3, 2));
 
 console.log(`******* #4.J) reverseWordOrder v2 *******` );
 
+let reverseWordOrder = function(str)
+{
+	
+	let i = 0;
+	//let wordArray = [];
+	let reverseString = ""
+	
+	while ( i < str.length )
+	{	
+		let word = "";
+		while((str[i] !== " ") && (i < str.length))  //scan thru each letter till a space or length of the sting has been reached
+		{
+			word += `${str[i]}`;  //store the letter in a string
+			++i;
+		}
+		++i;
+		reverseString = `${word} ${reverseString} `;
+		//wordArray.push(word);  //store the word in an array
+	}
+	return reverseString;
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
+
 
