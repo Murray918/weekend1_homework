@@ -99,7 +99,7 @@ for(let i = 1; i<=100; i++) {
 }
 */
 
-
+/*
 for (let i = 0; i<=100; i++) {
 	if(i%5===0) {
 		console.log("I found a", i, "High five!")
@@ -108,3 +108,12 @@ for (let i = 0; i<=100; i++) {
 		console.log("I found a", i, "Three is a crowd")
 	}
 }
+*/
+
+let bank_account = 0;
+
+for (let i = 0; i<=100; i++)  {
+	bank_account += (i * 2)
+}
+
+console.log(bank_account)
