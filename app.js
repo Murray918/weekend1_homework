@@ -272,3 +272,18 @@ function calculateCube (x) {
 console.log(calculateCube(5))
 */
 
+function isVowel (char) {
+	if (char === "a"||"e"||"i"||"o"||"u") {
+		 return true 
+}
+	else {
+		return false
+	}
+
+}
+
+console.log(isVowel("a"))
+
+
+
+
