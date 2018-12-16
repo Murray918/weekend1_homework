@@ -377,3 +377,6 @@ let user = {
 	age: "43",
 	purchased:[]
 }
+user.email = "John.n@Yahoo.com"
+user.age++
+console.log(user.age)
