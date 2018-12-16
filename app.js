@@ -183,7 +183,7 @@ myArray.reverse()
 console.log(myArray)
 */
 
-
+/*
 let x = 222;
 
 if (x<100) {
@@ -191,3 +191,15 @@ if (x<100) {
 } else {
 	console.log("big number")
 }
+*/
+
+let x = 7;
+
+if (x<5) {
+	console.log("little number")
+} else if (x>10) {
+ 	console.log("big number")
+ } else console.log("monkey")
+
+
+
