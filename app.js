@@ -257,9 +257,18 @@ let printGreeting = function (name) {
 console.log(printGreeting("Slimer"))
 */
 
+/*
 function printCool (name) {
 	return name + " is cool!"
 }
 
 console.log(printCool("Jamal"))
+*/
+
+/*
+function calculateCube (x) {
+	return x * x * x
+}
+console.log(calculateCube(5))
+*/
 
