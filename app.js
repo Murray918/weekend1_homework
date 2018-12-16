@@ -110,7 +110,7 @@ for (let i = 0; i<=100; i++) {
 }
 */
 
-/*
+
 let bank_account = 0;
 
 for (let i = 0; i<=100; i++)  {
@@ -118,7 +118,7 @@ for (let i = 0; i<=100; i++)  {
 }
 
 console.log(bank_account)
-*/
+
 
 
 let sum = 0;
@@ -130,3 +130,15 @@ for (let i = 0; i<1000; i++) {
 }
 
 console.log(sum)
+
+
+//What are the things in an array called?
+//A. primitive or objects, with a numeric value attached to the index
+//
+//Do Arrays guarantee those things will be in order?
+//A. no but you can give them the order you want 
+//
+//What real-life thing could you model with an array?
+//A. a menu
+//
+//
