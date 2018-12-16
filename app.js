@@ -141,10 +141,21 @@ for (let loopCount5 = 0; loopCount5 <= 100; loopCount5++)
 
 console.log(`******* #2.D) Savings Account *******` );
 
+let bankAccount = 0;
+for (let loopCount6 = 1; loopCount6 <= 10; loopCount6++)
+{
+	bankAccount += loopCount6;
+}
 
+console.log(`I should have \$${bankAccount}. Boooooo!!!`);
+console.log(`-------------------------------------------------` );
+bankAccount = 0;
+for (let loopCount7 = 1; loopCount7 <= 100; loopCount7++)
+{
+	bankAccount += (loopCount7*2);
+}
 
+console.log(`I should have \$${bankAccount}. Due to a massive pay raise!!!`);
 
-
-
-
+console.log(`******* #2.E) Multiples of 3 and 5 *******` );
 
