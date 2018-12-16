@@ -152,4 +152,9 @@ console.log(" Thom is looking fierce in a " + thomsCloset[0][0] + ", "
 	+ thomsCloset[1][0] + " and " + thomsCloset[2][1] + "!" )
 thomsCloset[1][2] = "footie pajamas"
 console.log(thomsCloset)
-//4
+//4)
+let printCool = function(name) {
+	return name + " is cool"
+}
+
+console.log(printCool("Jules"))
