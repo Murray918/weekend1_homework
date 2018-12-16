@@ -122,6 +122,16 @@ for (let loopCount3 = 12; loopCount3 <= 4000; loopCount3++)
 
 console.log(`******* #2.B) Get Even *******` );
 
+for (let loopCount4 = 1; loopCount4 <= 100; loopCount4++)
+{
+	if (loopCount4 % 2 == 0)
+		console.log(` ${loopCount4} <-- is an even number`);
+}
+
+console.log(`******* #2.C) Give me 5's *******` );
+
+
+
 
 
 
