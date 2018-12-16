@@ -207,6 +207,33 @@ ourClass.push("Cloud City");
 console.log(ourClass);
 
 
+console.log(`******* #3.E) Mix It Up *******` );
+const myArray = [5, 10, 500, 20]
+//Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Egon", "Stan");
+console.log(myArray);
+
+//Remove the 5 from the beginning of the array.
+myArray.shift();
+console.log(myArray);
+
+//Add the string "Bob Marley" to the beginning of the array.
+myArray.unshift("Bob Marley");
+console.log(myArray);
+//Remove the string of your choise from the end of the array.
+myArray.splice(-3,1);  // removing the 20
+console.log(myArray);
+
+//Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+//Yes -- reverse is destructive and will alter the original array!!!
+//Mutate means that it will alter the original variable.  
+myArray.reverse();
+console.log(myArray);
+
+console.log(`******* #3.F) Biggie Smalls *******` );
+
+
+
 
 
 
