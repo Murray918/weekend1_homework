@@ -109,3 +109,47 @@ for (q = 0; q < 15; q++){
 		console.log("Big Number")
 	} else (console.log("Monkey"))
 }
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+console.log("kristyn is rocking that " + kristynsCloset[2] + "!")
+kristynsCloset.splice(5, 0, "Ray Bans")
+console.log(kristynsCloset)
+kristynsCloset.splice(5,2,"stained knit hat")
+console.log(kristynsCloset)
+console.log(thomsCloset[0][0])
+console.log(thomsCloset[1][0])
+console.log(thomsCloset[2][1])
+console.log(" Thom is looking fierce in a " + thomsCloset[0][0] + ", " 
+	+ thomsCloset[1][0] + " and " + thomsCloset[2][1] + "!" )
+thomsCloset[1][2] = "footie pajamas"
+console.log(thomsCloset)
+//4
