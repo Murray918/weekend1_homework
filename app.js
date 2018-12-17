@@ -301,10 +301,15 @@ user.email = "juls@netscape.net"
 user.age = 33
 user.purchased = []
 user.email =("juls@yahoo.com")
-
+////objects b
 
 user['age'] = 34
 console.log(user)
-
+////obects c
 user.location = "Austin"
-user.purchased[2].push("peace of mind")
+////objects d
+user.purchased.push("carbohydrates")
+user.purchased.push("peace of mind")
+user.purchased.push("Merino jodhpurs")
+console.log(user)
+console.log(user.purchased[2])
