@@ -214,8 +214,13 @@
 // // What real-life thing could you model with an array?
 // You could model so many things with an array. An example is a class roster.
 
-
-
+// // B. Easy Does It
+// // Create an array that contains three quotes and store it in a variable called quotes.
+// let quotes = [
+// 			"There is nothing like a dream to create the future.",
+// 			"People can foresee the future only when it coincides with their own wishes, and the most grossly obvious facts can be ignored when they are unwelcome."
+// 			"For time and the world do not stand still.  Change is the law of life.  And those who look only to the past or the present are certain to miss the future."
+// ]
 
 
 
