@@ -312,6 +312,35 @@ return [string1.length, string2.length];
 
 console.log(getTwoLengths("andy", "aluko"))
 
+//f.
+
+let getMultipleLengths = function(array){
+	return [array.length]
+
+}
+
+console.log(getMultipleLengths(["hello", "good morning"]))
+
+//g.
+let maxOfThree = function (num1,num2,num3){
+	if(num1 > num2 && num1 > num3)
+		return num1
+	else if (num2 > num1 && num2 > num3)
+		return num2
+	else if (num3 > num1 && num3 > num2)
+		return num3
+	else if (num1 === num2)
+		return num1 || num2
+	else if (num1 === num3)
+		return num1 || num3
+	else if (num1 === num2 === num3)
+		return num1 || num2 || num3
+
+
+}
+
+console.log(maxOfThree(6, 1, 6))
+
 
 
 
