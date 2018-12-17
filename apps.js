@@ -194,6 +194,54 @@ if( x < 5){
 }
 */
 
+//3H
+/*
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
+
+kristynsCloset.splice(6,0,'raybans')
+
+kristynsCloset.splice(5,1,"stained knit hat")
+
+console.log(thomsCloset[0][2])
+console.log(thomsCloset[1][1])
+console.log(thomsCloset[2][1])
+
+console.log('Tom is looking ferice in a '+thomsCloset[0][2]+' '+thomsCloset[1][1]+' '+thomsCloset[2][1])
+
+thomsCloset[1].splice(2,1,'Footie Pajamas')
+*/
+
 
 
 
