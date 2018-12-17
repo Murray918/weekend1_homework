@@ -3,23 +3,29 @@
 
 // // A. Q + A
 
+
 // How do we assign a value to a variable?
+
 // We use the '=' token to assign value to a declared variable.
 // ex. let a = 'assigned'
 
 // How do we change the value of a variable?
+
 // We change the value of a variable by reassigning the variable with a new statement.
 // ex. a = 'changed'
 
 // How do we assign an existing variable to a new variable?
+
 // If I understand the question correctly, we declare the new variable, and put the existing one after the '='.
 // ex. let b = a
 
 // Remind me, what are declare, assign, and define?
+
 // To declare a variable is to allocate memory for it. To define it is to assign the declared variable a value.
 // ex. let c (declare variable c) = (assign) 'cupcake' (definition) > (= 'cupcake') is where we define variable c.
 
 // What is pseudocoding and why should you do it?
+
 // Pseudocoding is the act of writing out code in plain English before going about trying to actually write it in
 // JavaScript (or another language). We should do it because it helps us to lay out our objectives and plan of attack in
 // more natural language before we go about trying to take the steps and piece by piece use them to create JavaScript code.
@@ -27,6 +33,7 @@
 
 // What percentage of time should be spent thinking about how you're going to solve a problem
 // vs actually typing in code to solve it?
+
 // We should spend the vast majority of our time thinking about how we're going to solve a problem
 // before we go about actually writing the code. I still struggle with this concept because I feel like just going in and
 // writing some JavaScript helps to break the ice and get me thinking. Even if I have to scrap everything and start all over,
@@ -36,17 +43,23 @@
 // // B. Strings
 
 // // 1. Create a variable called firstVariable.
-// let firstVariable
 // // Assign it the value of the string "Hello World"
-// firstVariable = 'Hello World'
 // // Change the value of this variable to some number.
-// firstVariable = 11
 // // Store the value of firstVariable in a new variable called secondVariable
-// let secondVariable = firstVariable
 // // Change the value of secondVariable to any string.
+
+// let firstVariable
+// firstVariable = 'Hello World'
+// firstVariable = 11
+// let secondVariable = firstVariable
 // secondVariable = "string cheeze"
+
 // // What is the value of firstVariable?
+
 // 11
+
+
+
 
 // // 2. Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes
 // // the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
@@ -80,23 +93,24 @@
 // // D. The farm
 
 // // Declare a variable animal. Set it to be either "cow" or something else.
-// let animal = "pig";
 // // Write code that will print out "mooooo" if the it is equal to cow.
+// // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+
+// let animal = "pig";
 // if (animal === "cow") {
 // 	console.log("mooooo");
 // } else {
 // 	console.log("Hey! You're not a cow.")
 // }
-// // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
-// // Commit.
 
 
 // // E. Driver's Ed
 
 // // Make a variable that will hold a person's age. Be semantic.
-// let age = 1;
 // // Write code that will print out "Here are the keys", if the age is 16 years or older.
 // // If the age is younger than 16, a message should print "Sorry, you're too young."
+
+// let age = 1;
 // if (age >= 16) {
 // 	console.log("Here are the keys.");
 // }  else {
@@ -105,10 +119,9 @@
 
 
 // II. Loops
+
 // Remember: USE let when you initialize your for loops!
-
 // This is GOOD: for(let i = 0; i < 100; i++)
-
 // This is NO GOOD: for(i = 0; i < 100; i++)
 
 
@@ -132,12 +145,14 @@
 
 // // Print out the even numbers that are within the range of 1 - 100.
 // // Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
+
 // for (let i = 2; i <= 100; i += 2) {
 // 	console.log(i + " <-- is an even number.");
 // }
 
 
 // // C. Give me Five
+
 // // For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
 // // Example Output:
 
@@ -187,12 +202,11 @@
 // // E. Multiples of 3 and 5
 
 // // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-
 // // Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
-
 // // You just solved Project Euler problem 1!
 
 // // Are you having dejà vu? This just in! From the "Read the entire problem before you start" dept: This problem was on a previous assignment. You may skip it if you've already done it, just include a comment saying that you've already done it. If you've now done the problem twice, perhaps next time you'll read the whole problem before starting it.
+
 // let sum = 0;
 // for (let i = 1; i < 1000; i++) {
 // 	if (i % 3 === 0 || i % 5 === 0) {
@@ -214,8 +228,11 @@
 // // What real-life thing could you model with an array?
 // You could model so many things with an array. An example is a class roster.
 
+
 // // B. Easy Does It
+
 // // Create an array that contains three quotes and store it in a variable called quotes.
+
 // let quotes = [
 // 			"There is nothing like a dream to create the future.",
 // 			"People can foresee the future only when it coincides with their own wishes, and the most grossly obvious facts can be ignored when they are unwelcome."
@@ -230,8 +247,10 @@
 
 // // How do you access the 1st element in the array?
 // randomThings[0]
+
 // // Change the value of "Hello" to "World".
 // randomThings[2] = "World";
+
 // // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 // console.log(randomThings);
 
@@ -243,8 +262,10 @@
 
 // // What would you write to access the 3rd element of the array?
 // ourClass[2]
+
 // // Change the value of "Github" to "Octocat"
 // ourClass[4] = "Octocat";
+
 // // Add a new element, "Cloud City" to the array.
 // ourClass[5] = "Cloud City"; //or ourClass.push("Cloud City")
 // console.log(ourClass);
@@ -258,17 +279,23 @@
 // // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
 // myArray.push("Egon");
 // myArray.push("Schiele");
+
 // // Remove the 5 from the beginning of the array.
 // myArray.shift();
+
 // // Add the string "Bob Marley" to the beginning of the array.
 // myArray.unshift("Bob Marley");
+
 // // Remove the string of your choice from the end of the array.
 // myArray.shift(); // I could use .pop() or .splice(4, 1) too
+
 // // Reverse this array using Array.prototype.reverse(). 
 // myArray.reverse();
 // console.log(myArray);
+
 // // Did you mutate the array? What does mutate mean?
 // yes I mutated the array because the original array changed after executing the method
+
 // // Did the .reverse() method return anything?
 // yes it returns the reversed array (I used console.log(myArray.reverse()) to check)
 
@@ -276,15 +303,26 @@
 // // F. Biggie Smalls
 
 // // Create a variable that contains an integer.
-// let x = 0;
 // // Write an if ... else statement that:
 // // console.log()s "little number" if the number is entered is less than 100
 // // console.log()s big number if the number is greater than or equal to 100.
+
+// let x = 0;
 // if (x < 100) {
 // 	console.log('little number');
 // } else {
 // 	console.log('big number');
 // }
+
+
+// G. Monkey in the Middle
+
+// Write an if ... else if ... else statement:
+// console.log() little number if the number entered is less than 5.
+// If the number entered is more than 10, log big number.
+// Otherwise, log "monkey". 
+
+
 
 
 
