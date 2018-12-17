@@ -201,3 +201,17 @@ let maxOfThree = function(n1,n2,n3){
 	return Math.max(n1,n2,n3)
 }
 console.log(maxOfThree(3,5,9))
+
+//4h
+let arrayOfstringz = ["BoJack", "Princezzzsssss", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]
+let printLongestword = function(arrayOfstringz) {
+	let longestWord = []
+	for (let i =0; i < arrayOfstringz.length; i++) {
+		if (arrayOfstringz[i].length > longestWord.length) {
+			longestWord = arrayOfstringz[i]
+		}
+	}
+	return longestWord
+
+}
+console.log(printLongestword(arrayOfstringz))
