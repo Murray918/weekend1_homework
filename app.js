@@ -422,6 +422,17 @@
 // printCool("Barack Obama");
 
 
+// // C. calculateCube
+
+// // Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+// // console.log(calculateCube(5));
+// // => 125
+
+// let calculateCube = function(num) {
+// 	console.log(num * num * num);
+// }
+
+// calculateCube(5);
 
 
 
