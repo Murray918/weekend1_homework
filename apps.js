@@ -181,7 +181,18 @@ if(x <= 100){
 }
 */
 
+//3G
+/*
+let x = 7 
 
+if( x < 5){
+	console.log('little number')
+} else if(x> 10){
+	console.log('Big Number')
+} else {
+	console.log('Monkey')
+}
+*/
 
 
 
