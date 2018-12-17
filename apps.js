@@ -241,8 +241,14 @@ console.log('Tom is looking ferice in a '+thomsCloset[0][2]+' '+thomsCloset[1][1
 
 thomsCloset[1].splice(2,1,'Footie Pajamas')
 */
+//4A
+/*
+let printGreeting = function(name){
+	return 'Hello there, ' + name + '!'
+}
 
-
+console.log(printGreeting('slimer'))
+*/
 
 
 
