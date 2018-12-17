@@ -640,8 +640,8 @@
 // Set the value of purchased to an empty array []. Set the other values to whatever you would like.
 
 let user = {
-	name: "Rich Customer",
-	email: "rich@wealthy.com",
+	name: "Awesome Customer",
+	email: "good@customer.com",
 	age: 0,
 	purchased: []
 }
@@ -653,7 +653,7 @@ let user = {
 // Our user has had a birthday!
 // Without changing the original user object, increment the age value using the postfix operator. Hint: age++
 
-user.email = "richest@wealth.com";
+user.email = "best@customer.com";
 user.age++;
 
 
@@ -663,9 +663,22 @@ user.age++;
 // Without changing the original user object, add a new key location to the object,
 // and give it a value or some-or-other location (a string).
 
-user.location = "Richland";
+user.location = "Happiland";
 
 
+// D. Shopaholic!
+// Our user has purchased an item! 
+// They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+// Our user has purchased an item!
+// They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+// Our user has purchased an item!
+// They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// Console.log just the "Merino jodhpurs" from the purchased array.
+
+user.purchased.push("carbohydrates");
+user.purchased.push("peace of mind");
+user.purchased.push("Merino jodhpurs");
+console.log(user.purchased[2]);
 
 
 
