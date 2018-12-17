@@ -597,3 +597,25 @@ let oldAndLoud = function(person)
 oldAndLoud(user);
 
 console.log(`******* Bonus #1) Mama Cat *******` );
+//- Define an object called cat1 that contains the following properties:
+
+//name
+//breed
+//age (a number)
+//- console.log the cat's age
+//- console.log the cat's breed
+
+let cat = 
+{
+	name: "Sparky",
+	breed: "Ghost",
+	age: 2
+}
+
+console.log("Cat's age is: " + cat.age);
+console.log("Cat's breed is: " + cat.breed);
+
+console.log(`******* Bonus #2) Papa cat *******` );
+
+
+
