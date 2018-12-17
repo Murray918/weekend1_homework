@@ -112,5 +112,15 @@ ourClass[4] = "Octocat"
 ourClass.push("Cloud City")
 console.log(ourClass)
 
+//  E.
+const myArray = [5, 10, 500, 20]
+myArray.push("Egon", 400)
+myArray.shift()
+myArray.unshift("Bob Marley")
+myArray.pop()
+myArray.reverse()
+// It does not return anything, though it does mutate the Array, changing the order that the Array was originally in.
+
+
 
 
