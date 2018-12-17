@@ -128,3 +128,14 @@
 // }
 
 
+// // B. Get even
+
+// // Print out the even numbers that are within the range of 1 - 100.
+// // Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
+// for (let i = 2; i <= 100; i += 2) {
+// 	console.log(i + " <-- is an even number.");
+// }
+
+
+
+
