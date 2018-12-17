@@ -121,6 +121,11 @@ myArray.pop()
 myArray.reverse()
 // It does not return anything, though it does mutate the Array, changing the order that the Array was originally in.
 
-
+// F.
+let numero = 10 
+if (numero < 100){ 
+	console.log("little number")
+} else {(numero >= 100)
+	console.log("big number")}
 
 
