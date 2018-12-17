@@ -235,7 +235,7 @@
 
 // let quotes = [
 // 			"There is nothing like a dream to create the future.",
-// 			"People can foresee the future only when it coincides with their own wishes, and the most grossly obvious facts can be ignored when they are unwelcome."
+// 			"People can foresee the future only when it coincides with their own wishes, and the most grossly obvious facts can be ignored when they are unwelcome.",
 // 			"For time and the world do not stand still.  Change is the law of life.  And those who look only to the past or the present are certain to miss the future."
 // ]
 
@@ -588,8 +588,45 @@
 
 
 
+// // K. Get down and dirty with Math.random()
 
+// // Write a function that will return a random integer between 1 and 10. Test it.
+// let randomToTen = function() {
+// 	return Math.floor(Math.random() * 10 + 1);
+// }
+// console.log(randomToTen());
 
+// // Write a function that will return a random integer between 10 and 100. Test it.
+// let randomToHundred = function(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1) + min);
+// }
+// console.log(randomToHundred(10, 100));
+// console.log(Math.floor(0.999999 * 91 + 10));
+
+// // Write a function that will return a random number between 532 and 13267. Test it.
+// let randomToAny = function(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1) + min);
+// }
+// console.log(randomToAny(532, 13267));
+// console.log(Math.floor(0.999999 * 12736 + 532));
+
+// // Add a few more quotes to the quotes array from question III-B-1 above.
+// let quotes = [
+// 			"There is nothing like a dream to create the future.",
+// 			"People can foresee the future only when it coincides with their own wishes, and the most grossly obvious facts can be ignored when they are unwelcome.",
+// 			"For time and the world do not stand still.  Change is the law of life.  And those who look only to the past or the present are certain to miss the future.",
+// 			"Quote 4",
+// 			"Quote 5",
+// 			"Quote 6",
+// 			"Quote 7"
+// ]
+
+// // Write a function that will take an array as a parameter, and return a random element from that array.
+// let randomFromArray = function(array) {
+// 	return array[Math.floor(Math.random() * array.length)];
+// }
+// // Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+// console.log(randomFromArray(quotes));
 
 
 
