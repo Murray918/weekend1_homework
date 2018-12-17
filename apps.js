@@ -421,6 +421,18 @@ for(let i = 0; i < user.purchased.length; i++){
 	console.log(user.purchased[i])
 }
 
+let updateUser = function(){
+	user.age = ++user.age
+	user.name = user.name.toUpperCase()
 
 
+}
+updateUser()
 
+let oldAndLoud = function(person){
+	person.age = ++person.age
+	person.name = person.name.toUpperCase()
+}
+ 
+ oldAndLoud(user)
+ 
