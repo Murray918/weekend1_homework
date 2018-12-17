@@ -202,6 +202,21 @@
 // console.log(sum);
 
 
+// // III. Arrays & Control flow
+
+
+// // A. Talk about it:
+
+// // What are the things in an array called?
+// They're called elements.
+// // Do Arrays guarantee those things will be in order?
+// No they do not.
+// // What real-life thing could you model with an array?
+// You could model so many things with an array. An example is a class roster.
+
+
+
+
 
 
 
