@@ -90,7 +90,7 @@ for(let i = 12; i<= 400;i++){
  }
 */
 //2C
-
+/*
 for(let i = 0; i<=100; i++){
 	if(i%5 === 0){
 		console.log('I found a ' + i + '. High Five')
@@ -98,10 +98,18 @@ for(let i = 0; i<=100; i++){
 		console.log('I found a '+ i +  '. Three is a crowd')
 	}
 }
+*/
+//2D
 
+let bank_account = 0
+for(let i = 0; i<=10; i++){
+	bank_account += i
+}
 
-
-
+for(let i = 0; i<=100;i++){
+	bank_account += i*2
+}
+console.log(bank_account)
 
 
 
