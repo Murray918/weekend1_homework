@@ -130,8 +130,16 @@ for( let i = 0; i<= 1000; i++){
 /*
 let quotes = ['let there be light','In a galaxy far far away','Aged like a fine wine']
 */
+//3C
+/*
+const randomThings = [1, 10, "Hello", true]
 
+randomThings[0]
 
+randomThings.splice(2,1,'World')
 
+console.log(randomThings)
 
+3.Because we used splice to cut out Hello and insert World in its place.
+*/
 
