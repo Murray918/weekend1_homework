@@ -624,5 +624,27 @@ let cat2 =
 	age: 5
 }
 
-console.log(`******* Bonus #2) Combine Cats! *******` );
+console.log(`******* Bonus #3) Combine Cats! *******` );
 
+let combineCats = function(cat1,cat2)
+{
+	console.log(cat1);
+	console.log(cat2);
+
+	return({ name: `${cat1.name}${cat2.name}`, age: 1,  breed: `${cat1.breed}-${cat2.breed}`});
+}
+
+combineCats(cat,cat2);
+
+//- Make it so the combineCats function will return a combination of the two incoming cats
+//- The result should be an object wherein the
+//- name is a concatenation of the parents' names
+//- the age is 1
+//- the breed is each of the parents' breeds with a hyphen in between
+
+console.log(combineCats(cat, cat2));
+
+
+
+
+console.log(`******* Bonus #4) Combine Cats! *******` );
