@@ -559,6 +559,18 @@ user.friend.purchased.push("The One Ring", "A latte");
 console.log("Friend's last purchase (did not exist): " + user.friend.purchased[1]);
 
 console.log(`******* #5.F) Loops *******` );
+//- Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+//- Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 
+for(let elements of user.purchased)
+{
+	console.log("User purchased item: " + elements);
+}
 
+for(let elements of user.friend.purchased)
+{
+	console.log("User's friend Purchased item: " + elements);
+}
+
+console.log(`******* #5.G) Functions can operate on objects *******` );
 
