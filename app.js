@@ -273,6 +273,20 @@
 // yes it returns the reversed array (I used console.log(myArray.reverse()) to check)
 
 
+// // F. Biggie Smalls
+
+// // Create a variable that contains an integer.
+// let x = 0;
+// // Write an if ... else statement that:
+// // console.log()s "little number" if the number is entered is less than 100
+// // console.log()s big number if the number is greater than or equal to 100.
+// if (x < 100) {
+// 	console.log('little number');
+// } else {
+// 	console.log('big number');
+// }
+
+
 
 
 
