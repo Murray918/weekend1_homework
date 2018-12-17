@@ -279,12 +279,23 @@ let isVowel = function(x){
 
 console.log(isVowel('y'))
 */
+//4E
+/*
+let first = []
+let getTwoLengths = function(x,y){
+	first.push(x.length)
+	first.push(y.length)
+	return first
+}
 
+console.log(getTwoLengths('hey','world'))
+*/
+//4F
 
-
-
-
-
+let first =[]
+let getMultipleLengths = function([]){
+	
+}
 
 
 
