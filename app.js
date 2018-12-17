@@ -573,4 +573,27 @@ for(let elements of user.friend.purchased)
 }
 
 console.log(`******* #5.G) Functions can operate on objects *******` );
+//- Write a single function updateUser that takes no parameters. When the function is run, it should:
+//  it should increment the user's age by 1
+//- make the user's name uppercase
+//  The function does not need a return statement, it will merely modify the user object.
 
+//- Write a function oldAndLoud that performs the exact same tasks as updateUser, 
+//  but instead of hard-coding it to only work on our user object, make it take a parameter person, 
+//  and have it modify the object that is passed in as an argument when the function is called. 
+//  Call your oldAndLoud function with user as the argument.
+
+let updateUser = function()
+{
+	user.age = ++user.age;
+	user.name.toUpperCase();
+}
+
+let oldAndLoud = function(person)
+{
+	person.age = ++user.age;
+	person.name.toUpperCase();
+}
+oldAndLoud(user);
+
+console.log(`******* Bonus #1) Mama Cat *******` );
