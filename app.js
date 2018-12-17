@@ -519,4 +519,14 @@ console.log("New age (was 21): " + user.age);
 
 
 console.log(`******* #5.C) Adding keys and values *******` );
+//You have decided to add your user's location to the data that you want to collect.
+//Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
+user.location = "Pittsburgh";
+console.log("New location (did not exist): " + user.location);
+
+console.log(`******* #5.D) Shopaholic! *******` );
+
+
+
+
 
