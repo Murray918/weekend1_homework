@@ -237,6 +237,7 @@
 
 
 // // D. Change values
+
 // // Given the following array
 // const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
@@ -247,6 +248,29 @@
 // // Add a new element, "Cloud City" to the array.
 // ourClass[5] = "Cloud City"; //or ourClass.push("Cloud City")
 // console.log(ourClass);
+
+
+// // E. Mix It Up
+
+// // Given the following array:
+// const myArray = [5, 10, 500, 20]
+
+// // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+// myArray.push("Egon");
+// myArray.push("Schiele");
+// // Remove the 5 from the beginning of the array.
+// myArray.shift();
+// // Add the string "Bob Marley" to the beginning of the array.
+// myArray.unshift("Bob Marley");
+// // Remove the string of your choice from the end of the array.
+// myArray.shift(); // I could use .pop() or .splice(4, 1) too
+// // Reverse this array using Array.prototype.reverse(). 
+// myArray.reverse();
+// console.log(myArray);
+// // Did you mutate the array? What does mutate mean?
+// yes I mutated the array because the original array changed after executing the method
+// // Did the .reverse() method return anything?
+// yes it returns the reversed array (I used console.log(myArray.reverse()) to check)
 
 
 
