@@ -330,24 +330,44 @@ let transmogrify = function(x,y,z){
 console.log(transmogrify(5,7,12))
 */
 //4J
-
+//Hit a snag
+/*
 let reverseWordOrder = function(x){
 	let newOrder = []
 	for(let i = 0; i <= x.length; i++){
 		if(x[i]!= ' '){
 			newOrder.push(x[i])
 		}
-	} return newOrder[-x]
 
 	}
 console.log(reverseWordOrder('Hello My Name is'))
+*/
 
+//4k
+/*
+let m = function(max) {
+	return Math.floor(Math.random() * Math.floor(max))
+}
+console.log(m(10))
 
+let x = function(min,max){
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min)) + min
+}
+ console.log(x(10,100))
 
+let z = function(min,max){
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min)) + min
+}
+console.log(z(532,13267))
 
-
-
-
-
-
-
+let y = function(min,max){
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min)) + min
+}
+ console.log(y(1,10))
+*/
