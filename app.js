@@ -536,5 +536,29 @@ console.log("New purchased item (did not exist): " + user.purchased[2]);
 
 console.log(`******* #5.E) Object-within-object *******` );
 
+//- Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+//- Console.log just the friend's name
+//- Console.log just the friend's location
+//- CHANGE the friend's age to 55
+//- The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+//- The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+//- Console.log just "A latte" from the friend's purchased array.
+
+
+user.friend = {
+	name: "Monster Friend",
+	location: "Atlanta",
+	age: 19,
+	purchased: []
+};
+
+console.log("Friend's age (did not exist): " + user.friend.age);
+console.log("Friend's location (did not exist): " + user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push("The One Ring", "A latte");
+console.log("Friend's last purchase (did not exist): " + user.friend.purchased[1]);
+
+console.log(`******* #5.F) Loops *******` );
+
 
 
