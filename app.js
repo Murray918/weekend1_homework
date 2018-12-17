@@ -444,7 +444,6 @@ let reverseWordOrder = function(str)
 {
 	
 	let i = 0;
-	//let wordArray = [];
 	let reverseString = ""
 	
 	while ( i < str.length )
@@ -457,7 +456,6 @@ let reverseWordOrder = function(str)
 		}
 		++i;
 		reverseString = `${word} ${reverseString} `;
-		//wordArray.push(word);  //store the word in an array
 	}
 	return reverseString;
 }
@@ -465,4 +463,35 @@ let reverseWordOrder = function(str)
 console.log(reverseWordOrder("Ishmael me Call"));
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 
+console.log(`******* #4.K) Get down and dirty with Math.random() *******` );
+
+//- Write a function that will return a random integer between 1 and 10. Test it.
+let randomNum = function(max,min)
+{
+	return Math.floor(Math.random() * (max - min) + 1);
+}
+
+console.log("Return a random num between 1 and 10: " + randomNum(10,1));
+//- Write a function that will return a random integer between 10 and 100. Test it.
+console.log("Return a random num between 10 and 100: " + randomNum(100,10));
+//- Write a function that will return a random number between 532 and 13267. Test it.
+console.log("Return a random num between 532 and 13267: " + randomNum(13267,532));
+//- Write a function that will return a random number between 1 and 10. Test it.
+console.log("Return a random num between 1 and 10: " + randomNum(10,1));
+//- Add a few more quotes to the quotes array from question III-B-1 above. Write a function 
+//  that will take an array as a parameter, and return a random element from that array. 
+//  Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+
+//let quotes = ["Aye Pirate", "What you looking at?", "Merry Xmas!"];
+quotes.push("Happy New Years", "Santa");  //add additional quotes
+
+let getRandomElement = function(quotes)
+{
+	return quotes[Math.floor(Math.random() * quotes.length)];
+}
+
+console.log("Return a random quote: " + getRandomElement(quotes));
+
+
+console.log(`******* #5.A) Make a user object *******` );
 
