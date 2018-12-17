@@ -263,10 +263,22 @@ let calculateCube = function(num){
 }
 console.log(calculateCube(5))
 */
+//4D
+/*
+let vowels = ['A','a','E','e','I,','i','O','o','U','u']
+let isVowel = function(x){
+	if(x.length != 1){
+		return 'no'
+	} else for(let i = 0 ; i <= vowels.length; i++){
+		if(x === vowels[i]){
+			return'true'}
+		}
+	return 'false'
+	
+}
 
-
-
-
+console.log(isVowel('y'))
+*/
 
 
 
