@@ -152,10 +152,24 @@ ourClass.splice(-1,1,'Octocat')
 
 ourClass.push('Cloud City')
 */
+//3E
+/*
+const myArray = [5, 10, 500, 20]
 
+myArray.push('Egon','LOL')
 
+myArray.shift()
 
+myArray.unshift('Bob Marley')
 
+myArray.pop()
+
+myArray.reverse()
+
+the array was mutated through out the steps above. Mutate means to change in form or nature.
+when we used the reverse method nothing was displayed to the console.
+ 
+*/
 
 
 
