@@ -1,13 +1,13 @@
-// //b
-// let firstVariable = "Hello World"
-// firstVariable = 6
-// console.log(firstVariable)
-// let secondVariable = firstVariable
-// secondVariable = "yooo"
-// console.log(firstVariable)
-// let yourName = "Jules Camarillo"
-// console.log("Hello, my name is " + yourName +".")
-// //c
+//b
+let firstVariable = "Hello World"
+firstVariable = 6
+console.log(firstVariable)
+let secondVariable = firstVariable
+secondVariable = "yooo"
+console.log(firstVariable)
+let yourName = "Jules Camarillo"
+console.log("Hello, my name is " + yourName +".")
+//c
 // const a = 4;
 //   const b = 53;
 //   const c = 57;
@@ -25,20 +25,20 @@
 //    console.log(a && a < d);
 //    console.log(48 !== '48');
 
-// //d
-// let animal = "cow"
-// if (animal === "cow"){
-// 	console.log("moooo")
-// } else {console.log("Hey! You're not a cow!")}
+//d
+let animal = "cow"
+if (animal === "cow"){
+	console.log("moooo")
+} else {console.log("Hey! You're not a cow!")}
 
-// //e--coming back to E
+//e--coming back to E
 
 // let age = x
 // for ( let i = 10 ; i <25 ; i++){
 // 	if ( i < )
 // }
 
-//||
+
 //2-a-1
 
 let x = 0
@@ -165,12 +165,17 @@ let calculateCube = function(number) {
 }
 console.log(calculateCube(8))
 //4d
-// let isVowel = function(char){
-//  if (char = 'a' || 'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U' )
-//  	{console.log(true)
-//  } else { console.log(false)
-//  }
-// }
+let isVowel = function (char) {
+	let vowels = ['a','e','i','o','u']
+	for (let i = 0; i < vowels.length; i++) {
+		if (vowels[i] === char.toLowerCase() ){
+			return true
+		}
+	}
+	return false
+}
+
+console.log(isVowel("h"))
 
 //4e
 let getTwoLengths = function(string1,string2) {
@@ -178,5 +183,21 @@ let getTwoLengths = function(string1,string2) {
 }
 console.log(getTwoLengths('jim','james'))
 
+//4f
+let arrayOfstrings = ["hello", "what", "is", "up", "dude"]
+let getMultiplelengths = function(arrayOfstrings) {
+	let stringLength = []
+	for (let i = 0; i < arrayOfstrings.length; i++) {
+		stringLength.push(arrayOfstrings[i].length)
 
+	}
+	return stringLength
+}
+console.log(getMultiplelengths(arrayOfstrings))
 
+//4g
+
+let maxOfThree = function(n1,n2,n3){
+	return Math.max(n1,n2,n3)
+}
+console.log(maxOfThree(3,5,9))
