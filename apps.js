@@ -91,6 +91,13 @@ for(let i = 12; i<= 400;i++){
 */
 //2C
 
+for(let i = 0; i<=100; i++){
+	if(i%5 === 0){
+		console.log('I found a ' + i + '. High Five')
+	}else if( i%3 === 0){
+		console.log('I found a '+ i +  '. Three is a crowd')
+	}
+}
 
 
 
