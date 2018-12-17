@@ -617,5 +617,12 @@ console.log("Cat's breed is: " + cat.breed);
 
 console.log(`******* Bonus #2) Papa cat *******` );
 
+let cat2 = 
+{
+	name: "Daddy",
+	breed: "Monster",
+	age: 5
+}
 
+console.log(`******* Bonus #2) Combine Cats! *******` );
 
