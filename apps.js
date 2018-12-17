@@ -126,7 +126,10 @@ for( let i = 0; i<= 1000; i++){
 2. Arrats do not guarantee these things will be in order
 3. A unordered list pf items
 */
-
+//3B
+/*
+let quotes = ['let there be light','In a galaxy far far away','Aged like a fine wine']
+*/
 
 
 
