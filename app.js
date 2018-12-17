@@ -152,15 +152,31 @@ console.log(" Thom is looking fierce in a " + thomsCloset[0][0] + ", "
 	+ thomsCloset[1][0] + " and " + thomsCloset[2][1] + "!" )
 thomsCloset[1][2] = "footie pajamas"
 console.log(thomsCloset)
-//4)
+//4b)
 let printCool = function(name) {
 	return name + " is cool"
 }
 
 console.log(printCool("Jules"))
 
-//5
+//4c
 let calculateCube = function(number) {
 	return number * number * number 
 }
 console.log(calculateCube(8))
+//4d
+// let isVowel = function(char){
+//  if (char = 'a' || 'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U' )
+//  	{console.log(true)
+//  } else { console.log(false)
+//  }
+// }
+
+//4e
+let getTwoLengths = function(string1,string2) {
+	return [string1.length, string2.length]
+}
+console.log(getTwoLengths('jim','james'))
+
+
+
