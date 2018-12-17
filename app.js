@@ -296,3 +296,15 @@
 // console.log(randomQuote)
 ////Objects A
 let user = {}
+user.name = "Jules"
+user.email = "juls@netscape.net"
+user.age = 33
+user.purchased = []
+user.email =("juls@yahoo.com")
+
+
+user['age'] = 34
+console.log(user)
+
+user.location = "Austin"
+user.purchased[2].push("peace of mind")
