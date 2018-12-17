@@ -30,6 +30,29 @@
 // writing some JavaScript helps to break the ice and get me thinking. Even if I have to scrap everything and start all over,
 // it helps me to get through the process of solving the problem.
 
+// // B. Strings
+
+// // 1. Create a variable called firstVariable.
+// let firstVariable
+// // Assign it the value of the string "Hello World"
+// firstVariable = 'Hello World'
+// // Change the value of this variable to some number.
+// firstVariable = 11
+// // Store the value of firstVariable in a new variable called secondVariable
+// let secondVariable = firstVariable
+// // Change the value of secondVariable to any string.
+// secondVariable = "string cheeze"
+// // What is the value of firstVariable?
+// 11
+
+// // 2. Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes
+// // the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
+
+// let yourName = "Tristan";
+// let introduction = "Hello, my name is " + yourName
+
+
+
 
 
 
