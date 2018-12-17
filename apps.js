@@ -291,18 +291,34 @@ let getTwoLengths = function(x,y){
 console.log(getTwoLengths('hey','world'))
 */
 //4F
-
+// could not figure out how to take muiltple item string in a single parameter
+/*
 let first =[]
 let getMultipleLengths = function([x]){
 	for(let i =0; i <= [x].length;i++){
-		first.push(x[i])
+		first.push(x
 	}
 }
 getMultipleLengths(['hello','you'])
 console.log(first)
-
-
-
+*/
+//4G
+/*
+let maxOfThree = function(x,y,z){
+	if(x === y && x === z){
+		return x
+	}else if(x ===y || x === z){
+		return x
+	}else if(x > y && x > z){
+		return x
+	}else if(y > x && y >z){
+		return y
+	}else if(z > x && z > y){
+		return z
+	}
+}
+console.log(maxOfThree(13,21,99))
+*/
 
 
 
