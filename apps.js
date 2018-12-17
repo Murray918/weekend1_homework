@@ -372,17 +372,18 @@ let y = function(min,max){
  console.log(y(1,10))
 */
 //5A
-/*
+
 let user = {
-	name : 'Josh'
-	email : 'Joshklaas1@gmail.com'
-	age : 23
+	name : 'Josh',
+	email : 'Joshklaas1@gmail.com',
+	age : 23,
 	purchased : []
 
 }
-*/
 
+user.email = 'Godfrey@gmail.com'
 
+user.age = ++user.age
 
 
 
