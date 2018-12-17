@@ -256,5 +256,28 @@ let pringCool =  function(name){
 }
 console.log(pringCool('Captain Reynolds'))
 */
+//4C
+/*
+let calculateCube = function(num){
+	return num**3
+}
+console.log(calculateCube(5))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
