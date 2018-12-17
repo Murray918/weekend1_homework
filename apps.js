@@ -319,6 +319,34 @@ let maxOfThree = function(x,y,z){
 }
 console.log(maxOfThree(13,21,99))
 */
+//4H
+//Same issue as before could not find out how to pass an array through a function as an arigument
+//4I
+/*
+let transmogrify = function(x,y,z){
+	r = (x*y)**z
+	return r
+}
+console.log(transmogrify(5,7,12))
+*/
+//4J
+
+let reverseWordOrder = function(x){
+	let newOrder = []
+	for(let i = 0; i <= x.length; i++){
+		if(x[i]!= ' '){
+			newOrder.push(x[i])
+		}
+	} return newOrder[-x]
+
+	}
+console.log(reverseWordOrder('Hello My Name is'))
+
+
+
+
+
+
 
 
 
