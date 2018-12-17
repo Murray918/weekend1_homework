@@ -341,8 +341,39 @@ let maxOfThree = function (num1,num2,num3){
 
 console.log(maxOfThree(6, 1, 6))
 
+//h.
+
+let printLongestWord = function([str]){
+	let strSplit = str.split(' ');
+	let longestWord = 0;
+	
+	for(let i = 0; i < strSplit.length; i++){
+		if(strSplit[i].length > longestWord){
+			longestWord = strSplit[i].length;
+			}
+		}
+		return longestWord;
+	}
 
 
+
+
+
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
+
+
+//i. 
+
+let transmogrify = function(arg1, arg2, arg3){
+	
+	return Math.pow(arg1 * arg2, arg3);
+}
+
+console.log(transmogrify(2, 3, 2))
+
+
+//j.
 
 
 
