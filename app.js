@@ -1,6 +1,8 @@
 // Variables and Datatypes
 
+
 // // A. Q + A
+
 // How do we assign a value to a variable?
 // We use the '=' token to assign value to a declared variable.
 // ex. let a = 'assigned'
@@ -29,6 +31,7 @@
 // before we go about actually writing the code. I still struggle with this concept because I feel like just going in and
 // writing some JavaScript helps to break the ice and get me thinking. Even if I have to scrap everything and start all over,
 // it helps me to get through the process of solving the problem.
+
 
 // // B. Strings
 
@@ -72,6 +75,23 @@
 //   console.log(a + b === c);
 //   console.log(a * a === d);
 //   console.log(48 !== '48');
+
+
+// // D. The farm
+
+// // Declare a variable animal. Set it to be either "cow" or something else.
+// let animal = "pig";
+// // Write code that will print out "mooooo" if the it is equal to cow.
+// if (animal === "cow") {
+// 	console.log("mooooo");
+// } else {
+// 	console.log("Hey! You're not a cow.")
+// }
+// // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+// // Commit.
+
+
+
 
 
 
