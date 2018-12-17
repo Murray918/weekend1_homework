@@ -293,10 +293,13 @@ console.log(getTwoLengths('hey','world'))
 //4F
 
 let first =[]
-let getMultipleLengths = function([]){
-	
+let getMultipleLengths = function([x]){
+	for(let i =0; i <= [x].length;i++){
+		first.push(x[i])
+	}
 }
-
+getMultipleLengths(['hello','you'])
+console.log(first)
 
 
 
