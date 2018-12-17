@@ -303,3 +303,18 @@ let isVowel = function(vowel){
 
 isVowel("b");
 
+//e.
+let getTwoLengths = function(string1, string2){
+return [string1.length, string2.length];
+
+
+}
+
+console.log(getTwoLengths("andy", "aluko"))
+
+
+
+
+
+
+
