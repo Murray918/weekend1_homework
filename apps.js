@@ -56,7 +56,7 @@ if(animal != 'cow'){
 }
 */
 //E
-
+/*
 let age = 17 
 
 if( age >= 16){
@@ -64,12 +64,21 @@ if( age >= 16){
 } else {
 	console.log('Sorry your to young to drive')
 }
-
-
-
-
-
-
+*/
+// 2A
+/*
+for(let i = 0; i <=10; i++){
+	console.log(i)
+}
+for(let i =10; i <=400; i++){
+	console.log(i)
+}
+for(let i = 12; i<= 400;i++){
+	if(i%3 === 0){
+		console.log(i)
+	}
+}
+*/
 
 
 
