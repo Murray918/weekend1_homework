@@ -91,7 +91,17 @@
 // // Commit.
 
 
+// // E. Driver's Ed
 
+// // Make a variable that will hold a person's age. Be semantic.
+// let age = 1;
+// // Write code that will print out "Here are the keys", if the age is 16 years or older.
+// // If the age is younger than 16, a message should print "Sorry, you're too young."
+// if (age >= 16) {
+// 	console.log("Here are the keys.");
+// }  else {
+// 	console.log("Sorry, you're too young.")
+// }
 
 
 
