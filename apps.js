@@ -142,4 +142,29 @@ console.log(randomThings)
 
 3.Because we used splice to cut out Hello and insert World in its place.
 */
+//3D
+/*
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+ourClass[2]
+
+ourClass.splice(-1,1,'Octocat')
+
+ourClass.push('Cloud City')
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
