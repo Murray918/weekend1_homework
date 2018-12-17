@@ -646,6 +646,7 @@ let user = {
 	purchased: []
 }
 
+
 // B. Update the user
 // Our user has changed his or her email address.
 // Without changing the original user object, update the email value to a new email address.
@@ -654,7 +655,15 @@ let user = {
 
 user.email = "richest@wealth.com";
 user.age++;
-console.log(user.age);
+
+
+
+// C. Adding keys and values
+// You have decided to add your user's location to the data that you want to collect.
+// Without changing the original user object, add a new key location to the object,
+// and give it a value or some-or-other location (a string).
+
+user.location = "Richland";
 
 
 
