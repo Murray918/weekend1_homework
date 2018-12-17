@@ -495,3 +495,18 @@ console.log("Return a random quote: " + getRandomElement(quotes));
 
 console.log(`******* #5.A) Make a user object *******` );
 
+//- Create an object called user.
+//- Write in to the object the key-value pairs for name, email, age, and purchased. 
+//  Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+
+let user = {
+	name: "Mo Monkey",
+	email: "email@email.com",
+	age: 21,
+	purchased: []
+};
+
+
+console.log(`******* #5.B) Update the user *******` );
+
+
