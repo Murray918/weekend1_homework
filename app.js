@@ -375,6 +375,45 @@ console.log(transmogrify(2, 3, 2))
 
 //j.
 
+let reverseWordOrder = function (string){
+	let newString = "";
+	for(let i = string.length - 1; i >= 0; i--){
+		newString += string[i] 
+	}
+	return newString
+}
 
+console.log(reverseWordOrder("Hey whats up"))
+
+
+//k. 
+let randomInt = function (num){
+	
+		return Math.floor(Math.random() * Math.floor(num)) 
+}
+console.log(randomInt(10))
+
+
+let randomMaxInt = function (min, max){
+	return Math.floor(Math.random() * max) + min 
+}
+
+console.log(randomMaxInt(10,100))
+
+
+
+//Objects
+
+
+let user = {
+	name: "Andrew",
+	email: "aluko17@yes.com",
+	age: 27,
+	purchased: []
+}
+
+
+	
+	
 
 
