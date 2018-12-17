@@ -377,6 +377,7 @@ console.log(transmogrify(2, 3, 2))
 
 let reverseWordOrder = function (string){
 	let newString = "";
+	
 	for(let i = string.length - 1; i >= 0; i--){
 		newString += string[i] 
 	}
@@ -459,15 +460,23 @@ for(i = 0; i < user.friend.purchased.length; i++)
 
 let updateUser = function(){
 	user.age++
-	 user.name.toUpperCase()
-	 
+	 user.name = user.name.toUpperCase()
+
 }
+updateUser();
 
 let oldAndLoud = function(person){
 	user.age++
 	 user.name.toUpperCase()
 
 }
+
+
+console.log(user)
+
+
+
+
 
 
 
