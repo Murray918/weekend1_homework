@@ -385,6 +385,8 @@ user.email = 'Godfrey@gmail.com'
 
 user.age = ++user.age
 
+user.location = 'Austin'
+
 
 
 
