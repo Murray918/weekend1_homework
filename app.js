@@ -508,5 +508,15 @@ let user = {
 
 
 console.log(`******* #5.B) Update the user *******` );
+//Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
+//Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
 
+user.email = "dog@email.com";
+user.age = ++user.age;
+
+console.log("New Email is (was email@email.com): " + user.email);
+console.log("New age (was 21): " + user.age);
+
+
+console.log(`******* #5.C) Adding keys and values *******` );
 
