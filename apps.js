@@ -249,10 +249,12 @@ let printGreeting = function(name){
 
 console.log(printGreeting('slimer'))
 */
-
-
-
-
-
+//4B
+/*
+let pringCool =  function(name){
+	return name + ' is cool'
+}
+console.log(pringCool('Captain Reynolds'))
+*/
 
 
