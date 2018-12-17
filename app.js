@@ -128,4 +128,17 @@ if (numero < 100){
 } else {(numero >= 100)
 	console.log("big number")}
 
+// G.
+let numeric = 25
+if (numeric < 5){
+	console.log("little number")
+} 
+else if (numeric > 10){
+	console.log("big number")}
+else {console.log(monkey)}
+
+
+
+
+
 
