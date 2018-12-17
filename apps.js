@@ -170,7 +170,16 @@ the array was mutated through out the steps above. Mutate means to change in for
 when we used the reverse method nothing was displayed to the console.
  
 */
+//3F
+/*
+let x = 4
 
+if(x <= 100){
+	console.log('little number')
+} else {
+	console.log('Big number')
+}
+*/
 
 
 
