@@ -455,7 +455,26 @@ for(i = 0; i < user.purchased.length; i++)
 for(i = 0; i < user.friend.purchased.length; i++)
 	console.log(user.friend.purchased[i])
 
-	
-	
+
+
+let updateUser = function(){
+	user.age++
+	 user.name.toUpperCase()
+	 
+}
+
+let oldAndLoud = function(person){
+	user.age++
+	 user.name.toUpperCase()
+
+}
+
+
+
+
+
+
+
+
 
 
