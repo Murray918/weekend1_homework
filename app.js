@@ -207,38 +207,30 @@ console.log(transmogrify(2, 5, 3))
 
 function reverseWordOrder(string)
 {
-	let rv = ""
-	let word = ""
-	let wordArray= []
-	let returnedArray = []
-	let j = wordArray.length-1
-	let temp = ""
-	for(let i = 0;i<string.length;i++)
-	{
-		if(string[i] === ' ' || i === string.length-1)
-		{
-			if(i===string.length-1)
-				word+=string[string.length-1]
-			wordArray.push(word)
-			word = ""
-		}
-		else
-		{
-			word += string[i]
-		}
-	}
-	for(let i = wordArray.length-1;i>=0;i--)
-	{
-		returnedArray.push(wordArray[i])
-	}
-	for(let i = 0;i<returnedArray.length;i++)
-	{
-		rv+=returnedArray[i]+" "
-	}
+	let rv = stringToReversedArray(string)
 	return rv
 }
 
-console.log(reverseWordOrder("Hello my name is Jacob"))
+function stringToReversedArray(string)
+{
+	let word = ""
+	let sentence = ""
+	for(let i = 0;i<=string.length;i++)
+	{
+		if(string[i] !== ' ' && i !== string.length)
+		{
+			word += string[i]
+		}
+		else
+		{
+			sentence = (word+" "+sentence)
+			word = ""
+		}
+	}
+	return sentence
+}
+
+console.log(reverseWordOrder("Hello my name is Jacob, I like apples"))
 
 function randomNumber1()
 {
