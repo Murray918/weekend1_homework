@@ -92,7 +92,7 @@ your first commit message should look something like this `'ceated app.js file'`
 ### D. The farm
 
 1. Declare a variable `animal`.  Set it to be either "cow" or something else.
-2. Write code that will print out "mooooo" if the it is equal to `cow`.
+2. Write code that will print out "mooooo" if animal is equal to `cow`.
 3. Change your code so that if the variable `animal` is anything other than a cow, it will print "Hey! You're not a cow."
 4. Commit.
 
